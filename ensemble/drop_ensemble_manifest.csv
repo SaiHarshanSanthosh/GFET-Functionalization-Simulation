@@ -1,0 +1,14 @@
+drop_id,status,height_nm,tilt_deg,azimuth_deg,shift_a_frac,shift_b_frac,velocity_seed,langevin_seed,duration_ns,group,purpose
+drop01,completed,2.0,0.0,0.0,0.0,0.0,20260827,20260828,8.0,baseline,validated reference trajectory
+drop02,pending,2.0,0.0,0.0,0.0,0.0,20260829,20260830,8.0,baseline,baseline seed reproducibility
+drop03,pending,2.0,0.0,0.0,0.0,0.0,20260831,20260832,8.0,baseline,baseline seed reproducibility
+drop04,pending,2.0,45.0,0.0,0.0,0.0,20260833,20260834,8.0,tilt45,intermediate orientation
+drop05,pending,2.0,45.0,0.0,0.0,0.0,20260835,20260836,8.0,tilt45,intermediate orientation
+drop06,pending,2.0,45.0,0.0,0.0,0.0,20260837,20260838,8.0,tilt45,intermediate orientation
+drop07,pending,2.0,90.0,0.0,0.0,0.0,20260839,20260840,8.0,tilt90,edge-on orientation
+drop08,pending,2.0,90.0,0.0,0.0,0.0,20260841,20260842,8.0,tilt90,edge-on orientation
+drop09,pending,2.0,90.0,0.0,0.0,0.0,20260843,20260844,8.0,tilt90,edge-on orientation
+drop10,pending,2.5,0.0,0.0,0.0,0.0,20260845,20260846,8.0,height2p5,starting-distance sensitivity
+drop11,pending,2.5,0.0,0.0,0.0,0.0,20260847,20260848,8.0,height2p5,starting-distance sensitivity
+drop12,pending,2.5,0.0,0.0,0.0,0.0,20260849,20260850,8.0,height2p5,starting-distance sensitivity
+drop13,pending,3.0,0.0,0.0,0.0,0.0,20260851,20260852,8.0,height3p0,exploratory starting-distance pilot
