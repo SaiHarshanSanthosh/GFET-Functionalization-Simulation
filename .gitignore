@@ -91,3 +91,8 @@ ATOMTYPE.INF
 # Large generated analysis arrays
 analysis/*.npz
 
+
+# Validated FF-3 reference states required for replica initialization
+!parameters/combined/ff3_pyrene_peg5_graphene_wallfree_opc_yb_minimized_positions_nm.npy
+!parameters/combined/ff3_pyrene_peg5_graphene_wallfree_opc_yb_equilibrated_300K_600ps_total_positions_nm.npy
+
