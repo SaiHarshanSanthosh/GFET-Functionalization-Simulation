@@ -1,0 +1,159 @@
+{
+  "status": "MINIMIZATION_PASS",
+  "energy_decreased": true,
+  "openmm_gradient_converged": true,
+  "final_openmm_objective_gradient_rms_kj_mol_nm": 5.456926523794597,
+  "minimum_reported_objective_gradient_rms_kj_mol_nm": 5.456926523794597,
+  "openmm_reporter_calls": 3812,
+  "lbfgs_constraint_restraint_cycles": 4,
+  "constraints_satisfied": true,
+  "one_sided_geometry_preserved": true,
+  "platform": "CUDA",
+  "total_particles": 28116,
+  "electrolyte_model": "PBS ionic-strength surrogate: NaCl in OPC water",
+  "opc_waters": 6065,
+  "na_ions": 18,
+  "cl_ions": 18,
+  "total_ions": 36,
+  "minimization_tolerance_kj_mol_nm": 10.0,
+  "max_iterations": 5000,
+  "constraint_tolerance": 1e-06,
+  "before_energy_kj_mol": -273254.7150336164,
+  "after_energy_kj_mol": -386997.15371554345,
+  "energy_change_kj_mol": -113742.43868192704,
+  "before_rms_force_component_kj_mol_nm": 840.6596094718235,
+  "after_rms_force_component_kj_mol_nm": 752.1117179040622,
+  "after_max_constraint_abs_error_nm": 4.876332171388498e-09,
+  "after_max_constraint_rel_error": 3.556238356602158e-08,
+  "after_worst_constraint_index": 8267,
+  "after_worst_constraint_particles": [
+    14841,
+    14842
+  ],
+  "after_worst_constraint_target_nm": 0.13712051,
+  "after_worst_constraint_actual_nm": 0.13712051487633217,
+  "before_max_force_kj_mol_nm": 27112.743301318602,
+  "after_max_force_kj_mol_nm": 2843.462460167774,
+  "after_max_force_identity": "OPC retained water 5218 site O",
+  "before_max_graphene_force_kj_mol_nm": 133.11547231610123,
+  "after_max_graphene_force_kj_mol_nm": 30.70518227809273,
+  "before_max_ligand_force_kj_mol_nm": 203.00767428854803,
+  "after_max_ligand_force_kj_mol_nm": 216.12753534180158,
+  "before_max_water_force_kj_mol_nm": 27112.743301318602,
+  "after_max_water_force_kj_mol_nm": 2843.462460167774,
+  "before_max_na_force_kj_mol_nm": 2627.881706778268,
+  "after_max_na_force_kj_mol_nm": 26.44265198556218,
+  "before_max_cl_force_kj_mol_nm": 23926.385946050133,
+  "after_max_cl_force_kj_mol_nm": 11.686742378119941,
+  "graphene_max_displacement_nm": 0.01072404393504531,
+  "ligand_max_displacement_nm": 0.2732030696294024,
+  "water_max_displacement_nm": 0.4709428570672021,
+  "na_max_displacement_nm": 0.30016230129812327,
+  "cl_max_displacement_nm": 0.28980233339627215,
+  "after_graphene_carbon_z_min_nm": 0.49653178883880233,
+  "after_graphene_carbon_z_max_nm": 0.5105972664807226,
+  "after_water_oxygen_z_min_nm": 0.8044455281881273,
+  "after_water_oxygen_z_max_nm": 6.835336120844914,
+  "after_na_z_min_nm": 1.2655466884647302,
+  "after_na_z_max_nm": 6.514817280872531,
+  "after_cl_z_min_nm": 1.006214810185174,
+  "after_cl_z_max_nm": 6.430870568001783,
+  "waters_below_graphene_after": 0,
+  "na_below_graphene_after": 0,
+  "cl_below_graphene_after": 0,
+  "lowest_water_oxygen_gap_nm_after": 0.29384826170740475,
+  "lowest_na_gap_nm_after": 0.7549494219840076,
+  "lowest_cl_gap_nm_after": 0.49561754370445144,
+  "before_energy_groups_kj_mol": {
+    "Graphene bonds": 0.29857504308165517,
+    "Graphene angles": 1.6098882734232045e-06,
+    "Graphene out-of-plane": 0.0,
+    "Pyrene-PEG5 bonds": 9.149605904295868,
+    "Pyrene-PEG5 angles": 19.253204775359233,
+    "Graphene support": 0.0,
+    "Pyrene-PEG5 torsions": 150.9556497370453,
+    "Unified nonbonded": -273508.972591775,
+    "OPC bond terms": 0.0,
+    "OPC angle terms": 0.0,
+    "Yeh-Berkowitz slab correction": 74.60026443600601
+  },
+  "after_energy_groups_kj_mol": {
+    "Graphene bonds": 16.302113152714526,
+    "Graphene angles": 3.212132348295507,
+    "Graphene out-of-plane": 0.022483272199480098,
+    "Pyrene-PEG5 bonds": 10.021165876159102,
+    "Pyrene-PEG5 angles": 21.094226858831917,
+    "Graphene support": 14.259016909576403,
+    "Pyrene-PEG5 torsions": 155.798324115498,
+    "Unified nonbonded": -387218.4986323216,
+    "OPC bond terms": 0.0,
+    "OPC angle terms": 0.0,
+    "Yeh-Berkowitz slab correction": 0.6354436790018527
+  },
+  "top_10_residual_forces": [
+    {
+      "rank": 1,
+      "particle": 24692,
+      "force_kj_mol_nm": 2843.462460167774,
+      "identity": "OPC retained water 5218 site O"
+    },
+    {
+      "rank": 2,
+      "particle": 16472,
+      "force_kj_mol_nm": 2741.0324131982065,
+      "identity": "OPC retained water 3163 site O"
+    },
+    {
+      "rank": 3,
+      "particle": 12936,
+      "force_kj_mol_nm": 2722.8277212768553,
+      "identity": "OPC retained water 2279 site O"
+    },
+    {
+      "rank": 4,
+      "particle": 5232,
+      "force_kj_mol_nm": 2693.3572629682067,
+      "identity": "OPC retained water 353 site O"
+    },
+    {
+      "rank": 5,
+      "particle": 12968,
+      "force_kj_mol_nm": 2673.5963849191394,
+      "identity": "OPC retained water 2287 site O"
+    },
+    {
+      "rank": 6,
+      "particle": 23324,
+      "force_kj_mol_nm": 2663.0239078359714,
+      "identity": "OPC retained water 4876 site O"
+    },
+    {
+      "rank": 7,
+      "particle": 25264,
+      "force_kj_mol_nm": 2657.014318365096,
+      "identity": "OPC retained water 5361 site O"
+    },
+    {
+      "rank": 8,
+      "particle": 18724,
+      "force_kj_mol_nm": 2640.803296786836,
+      "identity": "OPC retained water 3726 site O"
+    },
+    {
+      "rank": 9,
+      "particle": 5368,
+      "force_kj_mol_nm": 2634.1759003502243,
+      "identity": "OPC retained water 387 site O"
+    },
+    {
+      "rank": 10,
+      "particle": 21072,
+      "force_kj_mol_nm": 2630.702249789013,
+      "identity": "OPC retained water 4313 site O"
+    }
+  ],
+  "md_run": false,
+  "velocities_assigned": false,
+  "temperature_applied": false,
+  "pyrene_peg5_restrained": false
+}
