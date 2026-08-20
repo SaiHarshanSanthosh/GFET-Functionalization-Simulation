@@ -1,0 +1,18 @@
+{
+  "method": "Analytical Yeh-Berkowitz correction validation against matched-grid 3D PME box-height sensitivity.",
+  "formula_energy": "Ucorr = 2*pi*k_e*Mz^2/V",
+  "formula_force": "Fz_i,corr = -4*pi*k_e*q_i*Mz/V",
+  "coulomb_constant_kJ_mol_nm_e2": 138.935456,
+  "total_charge_e": -7.628027987038877e-09,
+  "ligand_charge_e": -7.628015968874635e-09,
+  "pyrene_subset_charge_e": -1.2720571443780422,
+  "Mz_e_nm": 0.3660207825362285,
+  "area_nm2": 32.75524583463694,
+  "reference_lz_nm": 30.0,
+  "raw_energy_span_kJ_mol": 0.17676192469662055,
+  "corrected_energy_span_kJ_mol": 0.0030030712368898094,
+  "max_energy_prediction_residual_kJ_mol": 0.003003071236195476,
+  "raw_pyrene_force_span_kJ_mol_nm": 1.227149009704533,
+  "corrected_pyrene_force_span_kJ_mol_nm": 0.013715783481956123,
+  "max_pyrene_force_prediction_residual_kJ_mol_nm": 0.013715783481940802
+}

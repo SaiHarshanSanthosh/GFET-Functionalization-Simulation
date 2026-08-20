@@ -1,0 +1,18 @@
+{
+  "graphene_carbon_atoms": 1250,
+  "graphene_pi_sites": 2500,
+  "graphene_total_particles": 3750,
+  "ligand_particles": 70,
+  "ligand_offset": 3750,
+  "combined_particles": 3820,
+  "pyrene_graphene_starting_distance_A": 3.5,
+  "pyrene_plane_deviation_A": 0.016482402083461998,
+  "minimum_graphene_ligand_distance_A": 2.305981949459094,
+  "cross_LJ_kJmol": -118.08536234631202,
+  "cross_Coulomb_kJmol": 0.07144172831752371,
+  "cross_total_kJmol": -118.0139206179945,
+  "total_formal_charge_e": -7.623741388185223e-09,
+  "nonbonded_method": "NoCutoff validation assembly",
+  "production_ready": false,
+  "notes": "Vacuum assembly checkpoint only. Explicit water/PBS and PME not yet added."
+}

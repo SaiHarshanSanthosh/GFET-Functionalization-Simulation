@@ -1,0 +1,12 @@
+source leaprc.gaff2
+
+loadAmberParams parameters/gaff2/pyrene_peg5_gaff2.frcmod
+
+PPG = loadMol2 parameters/gaff2/pyrene_peg5_gaff2.mol2
+
+check PPG
+charge PPG
+
+saveAmberParm PPG parameters/gaff2/pyrene_peg5.prmtop parameters/gaff2/pyrene_peg5.inpcrd
+
+quit

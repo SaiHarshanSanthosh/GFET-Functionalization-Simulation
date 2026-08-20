@@ -1,0 +1,29 @@
+{
+  "system_xml": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\graphene_opc_wetting_cylinder_25x50_yb.xml",
+  "input_positions": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\graphene_opc_wetting_cylinder_25x50_yb_minimized_converged_positions_nm.npy",
+  "temperatures_K": [
+    50.0,
+    100.0,
+    150.0,
+    200.0,
+    250.0,
+    300.0
+  ],
+  "stage_ps": 20.0,
+  "total_heating_ps": 120.0,
+  "timestep_fs": 1.0,
+  "friction_per_ps": 1.0,
+  "seed": 20260819,
+  "final_300K": {
+    "mean_temperature_K": 299.1082678846097,
+    "sd_temperature_K": 2.7402022024787125,
+    "potential_energy_kJ_mol": -76719.46785039047,
+    "yb_energy_kJ_mol": 0.3502256761011362,
+    "lowest_water_O_height_nm": 0.28240951871812026,
+    "highest_water_O_height_nm": 3.361794755719877
+  },
+  "wall_time_s": 65.91368842124939,
+  "output_positions": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\graphene_opc_wetting_cylinder_25x50_yb_heated_300K_positions_nm.npy",
+  "output_velocities": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\graphene_opc_wetting_cylinder_25x50_yb_heated_300K_velocities_nm_per_ps.npy",
+  "checkpoint": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\checkpoints\\graphene_opc_wetting_25x50_yb_heated_300K.chk"
+}

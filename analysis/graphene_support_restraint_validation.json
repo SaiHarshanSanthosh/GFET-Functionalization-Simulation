@@ -1,0 +1,15 @@
+{
+  "n_graphene_carbons": 1250,
+  "n_graphene_particles_total": 3750,
+  "restrained_particle_start": 0,
+  "restrained_particle_end": 1249,
+  "restraint_direction": "z_only",
+  "kz_kj_mol_nm2": 1000.0,
+  "mean_graphene_z_nm": 0.5,
+  "test_displacement_nm": 0.1,
+  "expected_test_energy_kj_mol": 5.000000000000001,
+  "measured_test_energy_kj_mol": 5.000002384185791,
+  "pyrene_peg5_restrained": false,
+  "md_run": false,
+  "status": "PASS"
+}

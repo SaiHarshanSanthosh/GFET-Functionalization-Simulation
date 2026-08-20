@@ -1,0 +1,76 @@
+{
+  "aromatic_local_indices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "terminal_group_local_indices": {
+    "alkyne_C35": 35,
+    "alkyne_C36": 36,
+    "terminal_H69": 69
+  },
+  "before": {
+    "label": "assembled_start",
+    "graphene_plane_rms_nm": 0.001949944364173845,
+    "graphene_normal": [
+      6.472838477936002e-05,
+      -1.7951375963553904e-05,
+      0.9999999977439922
+    ],
+    "pyrene_plane_rms_nm": 0.000900162394865477,
+    "pyrene_tilt_deg": 2.1975224641953135,
+    "pyrene_height_nm": 0.3367423783011384,
+    "alkyne_C35_height_nm": 1.3328264059938018,
+    "alkyne_C36_height_nm": 1.3203792914639838,
+    "terminal_H69_height_nm": 1.3115257755781762,
+    "alkyne_C35_C36_bond_nm": 0.1209757207664711,
+    "alkyne_C35_C36_H69_angle_deg": 178.56795794620305,
+    "pyrene_center_to_terminal_C36_nm": 1.833392653869037,
+    "ligand_min_height_nm": 0.2993149737496503,
+    "ligand_max_height_nm": 1.4873890716277662,
+    "ligand_vertical_span_nm": 1.188074097878116
+  },
+  "after": {
+    "label": "minimized",
+    "graphene_plane_rms_nm": 0.012571388240982301,
+    "graphene_normal": [
+      -7.066772095972845e-05,
+      -0.00011162516665360703,
+      0.9999999912729477
+    ],
+    "pyrene_plane_rms_nm": 0.006824523246798271,
+    "pyrene_tilt_deg": 3.4623313585113524,
+    "pyrene_height_nm": 0.32649510050109143,
+    "alkyne_C35_height_nm": 0.33812328108669576,
+    "alkyne_C36_height_nm": 0.35599285323969954,
+    "terminal_H69_height_nm": 0.3767923808471941,
+    "alkyne_C35_C36_bond_nm": 0.11724797178805402,
+    "alkyne_C35_C36_H69_angle_deg": 175.40088885294168,
+    "pyrene_center_to_terminal_C36_nm": 1.1178205033106616,
+    "ligand_min_height_nm": 0.2385421594934618,
+    "ligand_max_height_nm": 0.6312219251997726,
+    "ligand_vertical_span_nm": 0.3926797657063108
+  },
+  "changes": {
+    "pyrene_height_change_nm": -0.010247277800046972,
+    "pyrene_tilt_change_deg": 1.264808894316039,
+    "pyrene_plane_rms_change_nm": 0.0059243608519327935,
+    "terminal_C36_height_change_nm": -0.9643864382242843,
+    "terminal_H69_height_change_nm": -0.9347333947309822,
+    "pyrene_to_terminal_C36_change_nm": -0.7155721505583754,
+    "ligand_vertical_span_change_nm": -0.7953943321718051
+  }
+}

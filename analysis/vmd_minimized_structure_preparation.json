@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "ligand_atoms": 70,
+  "ligand_bonds": 73,
+  "suspicious_original_direct_bonds": [],
+  "number_suspicious_original_direct_bonds": 0,
+  "maximum_original_direct_bond_nm": 0.15542239336382918,
+  "maximum_periodic_bond_nm": 0.15542239336382918,
+  "maximum_unwrapped_bond_nm": 0.15542239336382918,
+  "bond_reconstruction_error_nm": 2.7755575615628914e-17,
+  "graphene_z_min_nm": 0.49473358139019297,
+  "graphene_z_max_nm": 0.511079123770843,
+  "graphene_z_mean_nm": 0.5045751647928569,
+  "ligand_z_min_nm": 0.8011939679897448,
+  "ligand_z_max_nm": 1.99475511831805,
+  "aromatic_atom_count": 16,
+  "aromatic_atoms_one_based": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "aromatic_z_min_nm": 0.8290548070781334,
+  "aromatic_z_max_nm": 0.8639236729882591,
+  "aromatic_z_mean_nm": 0.8451402845148606,
+  "aromatic_mean_height_above_graphene_nm": 0.34056511972200365,
+  "periodic_xy_translation": {
+    "a_multiple": 0,
+    "b_multiple": 0,
+    "translation_nm": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "simulation_coordinates_modified": false,
+  "md_run": false,
+  "heating_run": false
+}

@@ -1,0 +1,31 @@
+{
+  "model": "supported_graphene_approximation",
+  "explicit_SiO2": false,
+  "graphene_carbon_plane_z_nm": 0.5,
+  "lowest_graphene_particle_z_nm": 0.43500000000000005,
+  "lower_support_boundary_z_nm": 0.1,
+  "top_solvent_boundary_z_nm": 6.8,
+  "ligand_top_z_nm": 1.9768524873132391,
+  "solvent_headroom_above_ligand_nm": 4.823147512686761,
+  "nominal_aqueous_height_nm": 6.3,
+  "nominal_aqueous_volume_nm3": 206.3580487582127,
+  "rough_water_count": 6897.080552023996,
+  "box_vectors_nm": [
+    [
+      6.15,
+      0.0,
+      0.0
+    ],
+    [
+      -3.075,
+      5.326056233274298,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      7.0
+    ]
+  ],
+  "note": "Version-1 supported graphene model. No explicit SiO2 atoms or chemistry. Future MD will restrain graphene and confine solution to the exposed side."
+}

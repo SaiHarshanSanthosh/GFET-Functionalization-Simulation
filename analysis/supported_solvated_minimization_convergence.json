@@ -1,0 +1,1084 @@
+{
+  "status": "MINIMIZATION_CONVERGENCE_PASS",
+  "platform": "CUDA",
+  "reporter_calls": 118,
+  "lbfgs_restraint_cycles": 4,
+  "tolerance_kj_mol_nm": 10.0,
+  "max_iterations": 5000,
+  "starting_energy_kj_mol": -375728.13388798013,
+  "final_energy_kj_mol": -375728.8110140767,
+  "energy_change_kj_mol": -0.6771260965615511,
+  "last_objective_gradient_rms": 8.32761026587979,
+  "minimum_objective_gradient_rms": 4.039406539593872,
+  "last_reported_constraint_error": 2.6065829146987426e-05,
+  "direct_max_constraint_relative_error": 3.556238984096064e-08,
+  "direct_max_constraint_absolute_error_nm": 4.876333031811342e-09,
+  "maximum_raw_force_kj_mol_nm": 3508.588384916877,
+  "reporter_records": [
+    {
+      "report_call": 1,
+      "iteration": 0,
+      "objective_gradient_rms": 509.27701536055,
+      "system_energy_kj_mol": -400175.23408814234,
+      "restraint_energy_kj_mol": 16388.278888345507,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027778967653371272
+    },
+    {
+      "report_call": 2,
+      "iteration": 1,
+      "objective_gradient_rms": 195.7176782654194,
+      "system_energy_kj_mol": -397850.3883989183,
+      "restraint_energy_kj_mol": 10056.330148174573,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.023996856267051073
+    },
+    {
+      "report_call": 3,
+      "iteration": 2,
+      "objective_gradient_rms": 43.12481483984847,
+      "system_energy_kj_mol": -400817.8151208698,
+      "restraint_energy_kj_mol": 11687.814181915592,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02509840404005243
+    },
+    {
+      "report_call": 4,
+      "iteration": 3,
+      "objective_gradient_rms": 11.115968076661723,
+      "system_energy_kj_mol": -402566.3565755189,
+      "restraint_energy_kj_mol": 13363.043909239226,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.025895493762272105
+    },
+    {
+      "report_call": 5,
+      "iteration": 4,
+      "objective_gradient_rms": 10.529248257383667,
+      "system_energy_kj_mol": -402763.0158902561,
+      "restraint_energy_kj_mol": 13552.102096173227,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.026390788288978517
+    },
+    {
+      "report_call": 6,
+      "iteration": 5,
+      "objective_gradient_rms": 16.605907453735572,
+      "system_energy_kj_mol": -403068.8442758284,
+      "restraint_energy_kj_mol": 13837.393676912245,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.026761526522156576
+    },
+    {
+      "report_call": 7,
+      "iteration": 6,
+      "objective_gradient_rms": 23.259043494919187,
+      "system_energy_kj_mol": -403365.72424932796,
+      "restraint_energy_kj_mol": 14095.790812641471,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027207468147023076
+    },
+    {
+      "report_call": 8,
+      "iteration": 7,
+      "objective_gradient_rms": 41.4739615488376,
+      "system_energy_kj_mol": -403485.1462547658,
+      "restraint_energy_kj_mol": 14209.458667781208,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.026783665466164758
+    },
+    {
+      "report_call": 9,
+      "iteration": 8,
+      "objective_gradient_rms": 13.814294611466128,
+      "system_energy_kj_mol": -403193.2603691243,
+      "restraint_energy_kj_mol": 13889.181270637742,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.026689785838353887
+    },
+    {
+      "report_call": 10,
+      "iteration": 9,
+      "objective_gradient_rms": 8.086285416909607,
+      "system_energy_kj_mol": -402963.9919799655,
+      "restraint_energy_kj_mol": 13652.863948978038,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02666167279158606
+    },
+    {
+      "report_call": 11,
+      "iteration": 10,
+      "objective_gradient_rms": 9.380771083734668,
+      "system_energy_kj_mol": -402823.83316018246,
+      "restraint_energy_kj_mol": 13506.890846602251,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.026790774114134587
+    },
+    {
+      "report_call": 12,
+      "iteration": 11,
+      "objective_gradient_rms": 13.842367702613812,
+      "system_energy_kj_mol": -402681.9532184932,
+      "restraint_energy_kj_mol": 13353.802943707307,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.026999670294946248
+    },
+    {
+      "report_call": 13,
+      "iteration": 12,
+      "objective_gradient_rms": 23.963483994280246,
+      "system_energy_kj_mol": -402735.91250790755,
+      "restraint_energy_kj_mol": 13383.893738871357,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027129114440591334
+    },
+    {
+      "report_call": 14,
+      "iteration": 13,
+      "objective_gradient_rms": 26.666977403815284,
+      "system_energy_kj_mol": -402592.1389864433,
+      "restraint_energy_kj_mol": 13217.903253382245,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027020263057372228
+    },
+    {
+      "report_call": 15,
+      "iteration": 14,
+      "objective_gradient_rms": 13.055150547689683,
+      "system_energy_kj_mol": -402945.2640874433,
+      "restraint_energy_kj_mol": 13553.352661816474,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02725857011783246
+    },
+    {
+      "report_call": 16,
+      "iteration": 15,
+      "objective_gradient_rms": 9.405091086250652,
+      "system_energy_kj_mol": -403322.37380240345,
+      "restraint_energy_kj_mol": 13919.927689338283,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.0270381984438073
+    },
+    {
+      "report_call": 17,
+      "iteration": 16,
+      "objective_gradient_rms": 10.232382560557038,
+      "system_energy_kj_mol": -403385.4613163421,
+      "restraint_energy_kj_mol": 13977.527364219415,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027089697620378474
+    },
+    {
+      "report_call": 18,
+      "iteration": 17,
+      "objective_gradient_rms": 11.592322511439631,
+      "system_energy_kj_mol": -403504.9902853384,
+      "restraint_energy_kj_mol": 14083.663214369491,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.026905114133008282
+    },
+    {
+      "report_call": 19,
+      "iteration": 18,
+      "objective_gradient_rms": 21.460075522046015,
+      "system_energy_kj_mol": -403326.021223391,
+      "restraint_energy_kj_mol": 13897.463153566348,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027710475048993592
+    },
+    {
+      "report_call": 20,
+      "iteration": 19,
+      "objective_gradient_rms": 10.393439393419767,
+      "system_energy_kj_mol": -403249.432896378,
+      "restraint_energy_kj_mol": 13810.664344378576,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027223402728981754
+    },
+    {
+      "report_call": 21,
+      "iteration": 20,
+      "objective_gradient_rms": 9.223124103424691,
+      "system_energy_kj_mol": -403169.1753539556,
+      "restraint_energy_kj_mol": 13722.915580584006,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027031999129826317
+    },
+    {
+      "report_call": 22,
+      "iteration": 21,
+      "objective_gradient_rms": 12.307559219098852,
+      "system_energy_kj_mol": -403134.5584684298,
+      "restraint_energy_kj_mol": 13678.429948029932,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02688861708390936
+    },
+    {
+      "report_call": 23,
+      "iteration": 22,
+      "objective_gradient_rms": 20.582566836685665,
+      "system_energy_kj_mol": -403421.1860966963,
+      "restraint_energy_kj_mol": 13951.54062436148,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027144920304886057
+    },
+    {
+      "report_call": 24,
+      "iteration": 23,
+      "objective_gradient_rms": 12.328148778987762,
+      "system_energy_kj_mol": -403382.15612050466,
+      "restraint_energy_kj_mol": 13904.639331075094,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.026771125022983316
+    },
+    {
+      "report_call": 25,
+      "iteration": 24,
+      "objective_gradient_rms": 7.251300587752304,
+      "system_energy_kj_mol": -403462.6063516023,
+      "restraint_energy_kj_mol": 13980.27866546921,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02705695148602177
+    },
+    {
+      "report_call": 26,
+      "iteration": 25,
+      "objective_gradient_rms": 9.208740635876008,
+      "system_energy_kj_mol": -403568.6762131601,
+      "restraint_energy_kj_mol": 14081.068808293794,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027397914002952536
+    },
+    {
+      "report_call": 27,
+      "iteration": 26,
+      "objective_gradient_rms": 12.225079360983257,
+      "system_energy_kj_mol": -403629.2285904991,
+      "restraint_energy_kj_mol": 14135.37934516788,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02752313876273298
+    },
+    {
+      "report_call": 28,
+      "iteration": 27,
+      "objective_gradient_rms": 19.216792580597403,
+      "system_energy_kj_mol": -403652.70189126534,
+      "restraint_energy_kj_mol": 14146.903634347018,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027692220410865283
+    },
+    {
+      "report_call": 29,
+      "iteration": 28,
+      "objective_gradient_rms": 13.705089122028449,
+      "system_energy_kj_mol": -403616.57578006765,
+      "restraint_energy_kj_mol": 14100.00244875849,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027369578896187068
+    },
+    {
+      "report_call": 30,
+      "iteration": 29,
+      "objective_gradient_rms": 9.247937989836753,
+      "system_energy_kj_mol": -403528.0830102209,
+      "restraint_energy_kj_mol": 14003.243572201667,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02723349831442898
+    },
+    {
+      "report_call": 31,
+      "iteration": 30,
+      "objective_gradient_rms": 9.893318366164308,
+      "system_energy_kj_mol": -403498.5560739659,
+      "restraint_energy_kj_mol": 13964.469493941837,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027106267179812293
+    },
+    {
+      "report_call": 32,
+      "iteration": 31,
+      "objective_gradient_rms": 10.33247696465398,
+      "system_energy_kj_mol": -403503.2302205293,
+      "restraint_energy_kj_mol": 13965.330265105107,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027233872229627327
+    },
+    {
+      "report_call": 33,
+      "iteration": 32,
+      "objective_gradient_rms": 8.492891440000184,
+      "system_energy_kj_mol": -403623.7723385011,
+      "restraint_energy_kj_mol": 14080.319807119462,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027312024726834926
+    },
+    {
+      "report_call": 34,
+      "iteration": 33,
+      "objective_gradient_rms": 13.315775695365248,
+      "system_energy_kj_mol": -403744.67157183075,
+      "restraint_energy_kj_mol": 14190.09071516598,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02728461024257003
+    },
+    {
+      "report_call": 35,
+      "iteration": 34,
+      "objective_gradient_rms": 18.743261692027012,
+      "system_energy_kj_mol": -404032.47961023124,
+      "restraint_energy_kj_mol": 14473.23852548527,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02778405384157578
+    },
+    {
+      "report_call": 36,
+      "iteration": 35,
+      "objective_gradient_rms": 10.058907343399106,
+      "system_energy_kj_mol": -403852.98965073656,
+      "restraint_energy_kj_mol": 14287.025459414494,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027641595826595356
+    },
+    {
+      "report_call": 37,
+      "iteration": 36,
+      "objective_gradient_rms": 8.319125208515107,
+      "system_energy_kj_mol": -403622.72671211837,
+      "restraint_energy_kj_mol": 14048.744920114808,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02756932196061082
+    },
+    {
+      "report_call": 38,
+      "iteration": 37,
+      "objective_gradient_rms": 10.007120554783764,
+      "system_energy_kj_mol": -403531.14883469,
+      "restraint_energy_kj_mol": 13951.181952040322,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027594388113990634
+    },
+    {
+      "report_call": 39,
+      "iteration": 38,
+      "objective_gradient_rms": 19.505679244497454,
+      "system_energy_kj_mol": -403556.4334284063,
+      "restraint_energy_kj_mol": 13964.806443926655,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.030586857731633662
+    },
+    {
+      "report_call": 40,
+      "iteration": 39,
+      "objective_gradient_rms": 12.27817458510074,
+      "system_energy_kj_mol": -403583.50603896374,
+      "restraint_energy_kj_mol": 13981.075860138635,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02774169486649445
+    },
+    {
+      "report_call": 41,
+      "iteration": 40,
+      "objective_gradient_rms": 7.613299780008423,
+      "system_energy_kj_mol": -403737.0199825605,
+      "restraint_energy_kj_mol": 14129.08847775368,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02777580127892532
+    },
+    {
+      "report_call": 42,
+      "iteration": 41,
+      "objective_gradient_rms": 8.862706089403853,
+      "system_energy_kj_mol": -403948.0759257623,
+      "restraint_energy_kj_mol": 14333.180179803534,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027860847405267848
+    },
+    {
+      "report_call": 43,
+      "iteration": 42,
+      "objective_gradient_rms": 10.955054851275374,
+      "system_energy_kj_mol": -404013.34931938484,
+      "restraint_energy_kj_mol": 14392.915024256903,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027780221396915345
+    },
+    {
+      "report_call": 44,
+      "iteration": 43,
+      "objective_gradient_rms": 12.06252625351329,
+      "system_energy_kj_mol": -403978.2574425018,
+      "restraint_energy_kj_mol": 14347.912592603481,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027900562133850264
+    },
+    {
+      "report_call": 45,
+      "iteration": 44,
+      "objective_gradient_rms": 11.047394427591673,
+      "system_energy_kj_mol": -403884.47126701096,
+      "restraint_energy_kj_mol": 14245.976679071831,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.0277612380526519
+    },
+    {
+      "report_call": 46,
+      "iteration": 45,
+      "objective_gradient_rms": 8.482115746667176,
+      "system_energy_kj_mol": -403740.1237960886,
+      "restraint_energy_kj_mol": 14095.012521837876,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02768159604705592
+    },
+    {
+      "report_call": 47,
+      "iteration": 46,
+      "objective_gradient_rms": 8.266306584174945,
+      "system_energy_kj_mol": -403702.43951319397,
+      "restraint_energy_kj_mol": 14050.869695324816,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027689785479200247
+    },
+    {
+      "report_call": 48,
+      "iteration": 47,
+      "objective_gradient_rms": 15.422161895852993,
+      "system_energy_kj_mol": -403695.45847197017,
+      "restraint_energy_kj_mol": 14040.2255199106,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02755056579046558
+    },
+    {
+      "report_call": 49,
+      "iteration": 48,
+      "objective_gradient_rms": 7.551841151990293,
+      "system_energy_kj_mol": -403846.88630185,
+      "restraint_energy_kj_mol": 14185.806517279878,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027596729795653963
+    },
+    {
+      "report_call": 50,
+      "iteration": 49,
+      "objective_gradient_rms": 7.173070827347354,
+      "system_energy_kj_mol": -404007.1585659604,
+      "restraint_energy_kj_mol": 14341.890684953572,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027598891594619677
+    },
+    {
+      "report_call": 51,
+      "iteration": 50,
+      "objective_gradient_rms": 8.548544333520624,
+      "system_energy_kj_mol": -404059.5316551868,
+      "restraint_energy_kj_mol": 14389.661058746104,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027616424365102688
+    },
+    {
+      "report_call": 52,
+      "iteration": 51,
+      "objective_gradient_rms": 20.10916435399916,
+      "system_energy_kj_mol": -404018.0857576859,
+      "restraint_energy_kj_mol": 14343.818103506565,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027224183862798512
+    },
+    {
+      "report_call": 53,
+      "iteration": 52,
+      "objective_gradient_rms": 7.929988298877038,
+      "system_energy_kj_mol": -403938.1729344511,
+      "restraint_energy_kj_mol": 14255.780915328834,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027464267059621333
+    },
+    {
+      "report_call": 54,
+      "iteration": 53,
+      "objective_gradient_rms": 6.566105721094057,
+      "system_energy_kj_mol": -403853.53980911477,
+      "restraint_energy_kj_mol": 14167.87268788471,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02750363247939819
+    },
+    {
+      "report_call": 55,
+      "iteration": 54,
+      "objective_gradient_rms": 8.845461149727484,
+      "system_energy_kj_mol": -403771.4408181002,
+      "restraint_energy_kj_mol": 14080.291017173924,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027500515170842135
+    },
+    {
+      "report_call": 56,
+      "iteration": 55,
+      "objective_gradient_rms": 10.577495341850431,
+      "system_energy_kj_mol": -403797.5298862023,
+      "restraint_energy_kj_mol": 14102.867076747785,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027465548919920594
+    },
+    {
+      "report_call": 57,
+      "iteration": 56,
+      "objective_gradient_rms": 16.06059342908151,
+      "system_energy_kj_mol": -403911.89464426506,
+      "restraint_energy_kj_mol": 14214.30074452313,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027530257639073574
+    },
+    {
+      "report_call": 58,
+      "iteration": 57,
+      "objective_gradient_rms": 7.6015699486858885,
+      "system_energy_kj_mol": -403965.25007525465,
+      "restraint_energy_kj_mol": 14261.003636264277,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02747478525117696
+    },
+    {
+      "report_call": 59,
+      "iteration": 58,
+      "objective_gradient_rms": 7.583011231358168,
+      "system_energy_kj_mol": -404053.1505617019,
+      "restraint_energy_kj_mol": 14344.370257814808,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027466884057409355
+    },
+    {
+      "report_call": 60,
+      "iteration": 59,
+      "objective_gradient_rms": 9.355000396729984,
+      "system_energy_kj_mol": -404069.84756771196,
+      "restraint_energy_kj_mol": 14356.489090744437,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027456600230576746
+    },
+    {
+      "report_call": 61,
+      "iteration": 60,
+      "objective_gradient_rms": 16.234274538269013,
+      "system_energy_kj_mol": -404111.1999980015,
+      "restraint_energy_kj_mol": 14392.510764525045,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027791630867460143
+    },
+    {
+      "report_call": 62,
+      "iteration": 61,
+      "objective_gradient_rms": 7.753398158368805,
+      "system_energy_kj_mol": -403983.8876871933,
+      "restraint_energy_kj_mol": 14259.504579100038,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027587715924633643
+    },
+    {
+      "report_call": 63,
+      "iteration": 62,
+      "objective_gradient_rms": 7.208591356811984,
+      "system_energy_kj_mol": -403916.6455582426,
+      "restraint_energy_kj_mol": 14188.137429055398,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027584584521049723
+    },
+    {
+      "report_call": 64,
+      "iteration": 63,
+      "objective_gradient_rms": 9.834158532811362,
+      "system_energy_kj_mol": -403868.6975958105,
+      "restraint_energy_kj_mol": 14133.471917037741,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02758493220509512
+    },
+    {
+      "report_call": 65,
+      "iteration": 64,
+      "objective_gradient_rms": 17.045188370480563,
+      "system_energy_kj_mol": -403883.9620478968,
+      "restraint_energy_kj_mol": 14143.97125849423,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027877668954081187
+    },
+    {
+      "report_call": 66,
+      "iteration": 65,
+      "objective_gradient_rms": 7.5791853361495,
+      "system_energy_kj_mol": -404012.5177740148,
+      "restraint_energy_kj_mol": 14266.822008479163,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027766549366511645
+    },
+    {
+      "report_call": 67,
+      "iteration": 66,
+      "objective_gradient_rms": 6.5195031585714105,
+      "system_energy_kj_mol": -404120.84754393704,
+      "restraint_energy_kj_mol": 14371.664611909471,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027749297888950378
+    },
+    {
+      "report_call": 68,
+      "iteration": 67,
+      "objective_gradient_rms": 8.79845419299768,
+      "system_energy_kj_mol": -404218.64939253166,
+      "restraint_energy_kj_mol": 14463.91917896912,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027767043725831383
+    },
+    {
+      "report_call": 69,
+      "iteration": 68,
+      "objective_gradient_rms": 13.57206353584234,
+      "system_energy_kj_mol": -404188.2079975317,
+      "restraint_energy_kj_mol": 14427.373501814485,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027603271861303857
+    },
+    {
+      "report_call": 70,
+      "iteration": 69,
+      "objective_gradient_rms": 10.513569577433982,
+      "system_energy_kj_mol": -404211.68169697846,
+      "restraint_energy_kj_mol": 14443.886413642178,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027768443762134172
+    },
+    {
+      "report_call": 71,
+      "iteration": 70,
+      "objective_gradient_rms": 7.556628406730646,
+      "system_energy_kj_mol": -404124.1333388617,
+      "restraint_energy_kj_mol": 14351.042000520894,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027697999744425213
+    },
+    {
+      "report_call": 72,
+      "iteration": 71,
+      "objective_gradient_rms": 10.20347559271309,
+      "system_energy_kj_mol": -403951.3379334743,
+      "restraint_energy_kj_mol": 14170.263509311375,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027665608508068117
+    },
+    {
+      "report_call": 73,
+      "iteration": 72,
+      "objective_gradient_rms": 10.510068048196402,
+      "system_energy_kj_mol": -404005.10649424646,
+      "restraint_energy_kj_mol": 14219.945339076407,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027484805705702366
+    },
+    {
+      "report_call": 74,
+      "iteration": 73,
+      "objective_gradient_rms": 8.91230788882411,
+      "system_energy_kj_mol": -404062.1943621827,
+      "restraint_energy_kj_mol": 14271.437333467817,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027446224242791334
+    },
+    {
+      "report_call": 75,
+      "iteration": 74,
+      "objective_gradient_rms": 17.276096612921897,
+      "system_energy_kj_mol": -404246.10344351974,
+      "restraint_energy_kj_mol": 14447.876004539292,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02718795865896651
+    },
+    {
+      "report_call": 76,
+      "iteration": 75,
+      "objective_gradient_rms": 8.318569738758914,
+      "system_energy_kj_mol": -404226.3720318014,
+      "restraint_energy_kj_mol": 14420.302906280176,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027436708804514046
+    },
+    {
+      "report_call": 77,
+      "iteration": 76,
+      "objective_gradient_rms": 7.005027575160308,
+      "system_energy_kj_mol": -404182.3345835139,
+      "restraint_energy_kj_mol": 14372.63000907725,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027396300086675228
+    },
+    {
+      "report_call": 78,
+      "iteration": 77,
+      "objective_gradient_rms": 9.902045486621532,
+      "system_energy_kj_mol": -404138.8323629484,
+      "restraint_energy_kj_mol": 14322.662132481439,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02750308602788852
+    },
+    {
+      "report_call": 79,
+      "iteration": 78,
+      "objective_gradient_rms": 17.170660347946672,
+      "system_energy_kj_mol": -404013.06031744,
+      "restraint_energy_kj_mol": 14191.795163270526,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027832424048962426
+    },
+    {
+      "report_call": 80,
+      "iteration": 79,
+      "objective_gradient_rms": 9.136516866503596,
+      "system_energy_kj_mol": -404107.30502480554,
+      "restraint_energy_kj_mol": 14281.202520333438,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02719141022746414
+    },
+    {
+      "report_call": 81,
+      "iteration": 80,
+      "objective_gradient_rms": 7.254508979263419,
+      "system_energy_kj_mol": -404200.6074355166,
+      "restraint_energy_kj_mol": 14367.639245339227,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02735447105402931
+    },
+    {
+      "report_call": 82,
+      "iteration": 81,
+      "objective_gradient_rms": 7.6438555583638506,
+      "system_energy_kj_mol": -404231.0529086059,
+      "restraint_energy_kj_mol": 14392.869045021696,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027386408830917603
+    },
+    {
+      "report_call": 83,
+      "iteration": 82,
+      "objective_gradient_rms": 19.769059630710004,
+      "system_energy_kj_mol": -404238.8381627295,
+      "restraint_energy_kj_mol": 14393.519516999475,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027440981382878246
+    },
+    {
+      "report_call": 84,
+      "iteration": 83,
+      "objective_gradient_rms": 7.868448829255833,
+      "system_energy_kj_mol": -404261.1840148405,
+      "restraint_energy_kj_mol": 14407.89685046088,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02741973633613551
+    },
+    {
+      "report_call": 85,
+      "iteration": 84,
+      "objective_gradient_rms": 7.11713714437785,
+      "system_energy_kj_mol": -404228.1854579537,
+      "restraint_energy_kj_mol": 14370.11194272102,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027364221320139447
+    },
+    {
+      "report_call": 86,
+      "iteration": 85,
+      "objective_gradient_rms": 10.36576784341245,
+      "system_energy_kj_mol": -404189.86117778625,
+      "restraint_energy_kj_mol": 14323.991453404007,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027273225336869274
+    },
+    {
+      "report_call": 87,
+      "iteration": 86,
+      "objective_gradient_rms": 10.645862610939865,
+      "system_energy_kj_mol": -404204.3251075508,
+      "restraint_energy_kj_mol": 14332.83859546062,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02751520848374536
+    },
+    {
+      "report_call": 88,
+      "iteration": 87,
+      "objective_gradient_rms": 8.280133221104913,
+      "system_energy_kj_mol": -404189.09114569565,
+      "restraint_energy_kj_mol": 14310.88279267988,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027514808121590892
+    },
+    {
+      "report_call": 89,
+      "iteration": 88,
+      "objective_gradient_rms": 9.139630386379665,
+      "system_energy_kj_mol": -404250.2456374187,
+      "restraint_energy_kj_mol": 14363.958992759763,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02768716830131118
+    },
+    {
+      "report_call": 90,
+      "iteration": 89,
+      "objective_gradient_rms": 12.669156886466231,
+      "system_energy_kj_mol": -404238.19592001714,
+      "restraint_energy_kj_mol": 14346.230474044387,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027639997895793102
+    },
+    {
+      "report_call": 91,
+      "iteration": 90,
+      "objective_gradient_rms": 8.073820771093589,
+      "system_energy_kj_mol": -404250.8002868509,
+      "restraint_energy_kj_mol": 14354.480178909746,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02766595380960337
+    },
+    {
+      "report_call": 92,
+      "iteration": 91,
+      "objective_gradient_rms": 7.0152886918857575,
+      "system_energy_kj_mol": -404300.14983872697,
+      "restraint_energy_kj_mol": 14397.446912572957,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027797213719550896
+    },
+    {
+      "report_call": 93,
+      "iteration": 92,
+      "objective_gradient_rms": 9.406530083320972,
+      "system_energy_kj_mol": -404237.43007963756,
+      "restraint_energy_kj_mol": 14330.91321246222,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027671447405623432
+    },
+    {
+      "report_call": 94,
+      "iteration": 93,
+      "objective_gradient_rms": 7.911981288341043,
+      "system_energy_kj_mol": -404232.62037100084,
+      "restraint_energy_kj_mol": 14319.545945258125,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027715052651855778
+    },
+    {
+      "report_call": 95,
+      "iteration": 94,
+      "objective_gradient_rms": 19.127553048999822,
+      "system_energy_kj_mol": -404238.9659820293,
+      "restraint_energy_kj_mol": 14322.986512461022,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02745964718035489
+    },
+    {
+      "report_call": 96,
+      "iteration": 95,
+      "objective_gradient_rms": 6.782131258659467,
+      "system_energy_kj_mol": -404255.21095477935,
+      "restraint_energy_kj_mol": 14331.50243023342,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027644530231860556
+    },
+    {
+      "report_call": 97,
+      "iteration": 96,
+      "objective_gradient_rms": 6.140611249319998,
+      "system_energy_kj_mol": -404284.9409755892,
+      "restraint_energy_kj_mol": 14358.527951737991,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02766136033561339
+    },
+    {
+      "report_call": 98,
+      "iteration": 97,
+      "objective_gradient_rms": 8.44509983727548,
+      "system_energy_kj_mol": -404314.6010218346,
+      "restraint_energy_kj_mol": 14383.07635176847,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027619691656104006
+    },
+    {
+      "report_call": 99,
+      "iteration": 98,
+      "objective_gradient_rms": 17.01326978834302,
+      "system_energy_kj_mol": -404341.00175255485,
+      "restraint_energy_kj_mol": 14405.115348895792,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027350732048365228
+    },
+    {
+      "report_call": 100,
+      "iteration": 99,
+      "objective_gradient_rms": 7.888214355333315,
+      "system_energy_kj_mol": -404295.2262840321,
+      "restraint_energy_kj_mol": 14353.376509648018,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.027321856709646302
+    },
+    {
+      "report_call": 101,
+      "iteration": 100,
+      "objective_gradient_rms": 5.505620424949706,
+      "system_energy_kj_mol": -404250.26109697676,
+      "restraint_energy_kj_mol": 14304.821167106957,
+      "restraint_strength_kj_mol_nm2": 1000000.0,
+      "max_constraint_error": 0.02726320707717583
+    },
+    {
+      "report_call": 102,
+      "iteration": 0,
+      "objective_gradient_rms": 739.868338918734,
+      "system_energy_kj_mol": -378744.6706572599,
+      "restraint_energy_kj_mol": 2544.4604003206255,
+      "restraint_strength_kj_mol_nm2": 10000000.0,
+      "max_constraint_error": 0.003470563384074171
+    },
+    {
+      "report_call": 103,
+      "iteration": 1,
+      "objective_gradient_rms": 201.65600988662356,
+      "system_energy_kj_mol": -377897.8284682906,
+      "restraint_energy_kj_mol": 974.3476854311532,
+      "restraint_strength_kj_mol_nm2": 10000000.0,
+      "max_constraint_error": 0.002372291136424885
+    },
+    {
+      "report_call": 104,
+      "iteration": 2,
+      "objective_gradient_rms": 83.30502191405316,
+      "system_energy_kj_mol": -378048.795528864,
+      "restraint_energy_kj_mol": 1006.0593725521476,
+      "restraint_strength_kj_mol_nm2": 10000000.0,
+      "max_constraint_error": 0.0023655402996874716
+    },
+    {
+      "report_call": 105,
+      "iteration": 3,
+      "objective_gradient_rms": 13.711233728509416,
+      "system_energy_kj_mol": -378390.4031797247,
+      "restraint_energy_kj_mol": 1309.8923328551175,
+      "restraint_strength_kj_mol_nm2": 10000000.0,
+      "max_constraint_error": 0.0025833546315229576
+    },
+    {
+      "report_call": 106,
+      "iteration": 4,
+      "objective_gradient_rms": 4.614222881174501,
+      "system_energy_kj_mol": -378436.1284132707,
+      "restraint_energy_kj_mol": 1355.0731004386505,
+      "restraint_strength_kj_mol_nm2": 10000000.0,
+      "max_constraint_error": 0.0026348145201078826
+    },
+    {
+      "report_call": 107,
+      "iteration": 0,
+      "objective_gradient_rms": 7826.010138314098,
+      "system_energy_kj_mol": -375420.3896501782,
+      "restraint_energy_kj_mol": 8802.898721041021,
+      "restraint_strength_kj_mol_nm2": 100000000.0,
+      "max_constraint_error": 0.0016554832546731633
+    },
+    {
+      "report_call": 108,
+      "iteration": 1,
+      "objective_gradient_rms": 1811.6369731048635,
+      "system_energy_kj_mol": -376480.97806105576,
+      "restraint_energy_kj_mol": 1886.9203767967208,
+      "restraint_strength_kj_mol_nm2": 100000000.0,
+      "max_constraint_error": 0.0007036206110250559
+    },
+    {
+      "report_call": 109,
+      "iteration": 2,
+      "objective_gradient_rms": 825.8519545538437,
+      "system_energy_kj_mol": -376360.45885825064,
+      "restraint_energy_kj_mol": 866.346989173472,
+      "restraint_strength_kj_mol_nm2": 100000000.0,
+      "max_constraint_error": 0.0005685370604147741
+    },
+    {
+      "report_call": 110,
+      "iteration": 3,
+      "objective_gradient_rms": 108.20367173828791,
+      "system_energy_kj_mol": -376034.93648929615,
+      "restraint_energy_kj_mol": 173.33569736546855,
+      "restraint_strength_kj_mol_nm2": 100000000.0,
+      "max_constraint_error": 0.0002978801756145838
+    },
+    {
+      "report_call": 111,
+      "iteration": 4,
+      "objective_gradient_rms": 20.731353352643264,
+      "system_energy_kj_mol": -375997.3534605722,
+      "restraint_energy_kj_mol": 133.21219695625695,
+      "restraint_strength_kj_mol_nm2": 100000000.0,
+      "max_constraint_error": 0.00025738029834013036
+    },
+    {
+      "report_call": 112,
+      "iteration": 5,
+      "objective_gradient_rms": 4.039406539593872,
+      "system_energy_kj_mol": -375999.32757390337,
+      "restraint_energy_kj_mol": 135.14503601088185,
+      "restraint_strength_kj_mol_nm2": 100000000.0,
+      "max_constraint_error": 0.0002631577838508891
+    },
+    {
+      "report_call": 113,
+      "iteration": 0,
+      "objective_gradient_rms": 3795.639904551146,
+      "system_energy_kj_mol": -375811.1687988383,
+      "restraint_energy_kj_mol": 463.1807078590967,
+      "restraint_strength_kj_mol_nm2": 1000000000.0,
+      "max_constraint_error": 0.00012356537408081847
+    },
+    {
+      "report_call": 114,
+      "iteration": 1,
+      "objective_gradient_rms": 1817.5229016993778,
+      "system_energy_kj_mol": -375804.38633557735,
+      "restraint_energy_kj_mol": 190.09271867906617,
+      "restraint_strength_kj_mol_nm2": 1000000000.0,
+      "max_constraint_error": 7.114244088348914e-05
+    },
+    {
+      "report_call": 115,
+      "iteration": 2,
+      "objective_gradient_rms": 155.83421548756502,
+      "system_energy_kj_mol": -375761.4486879762,
+      "restraint_energy_kj_mol": 19.891572765750105,
+      "restraint_strength_kj_mol_nm2": 1000000000.0,
+      "max_constraint_error": 3.101302934744582e-05
+    },
+    {
+      "report_call": 116,
+      "iteration": 3,
+      "objective_gradient_rms": 27.338042460156522,
+      "system_energy_kj_mol": -375755.88243927807,
+      "restraint_energy_kj_mol": 13.705671302682555,
+      "restraint_strength_kj_mol_nm2": 1000000000.0,
+      "max_constraint_error": 2.7509777062863152e-05
+    },
+    {
+      "report_call": 117,
+      "iteration": 4,
+      "objective_gradient_rms": 9.246074573922048,
+      "system_energy_kj_mol": -375755.6107745748,
+      "restraint_energy_kj_mol": 13.418847049709068,
+      "restraint_strength_kj_mol_nm2": 1000000000.0,
+      "max_constraint_error": 2.6036283476627025e-05
+    },
+    {
+      "report_call": 118,
+      "iteration": 5,
+      "objective_gradient_rms": 8.32761026587979,
+      "system_energy_kj_mol": -375755.62861244753,
+      "restraint_energy_kj_mol": 13.431992541518838,
+      "restraint_strength_kj_mol_nm2": 1000000000.0,
+      "max_constraint_error": 2.6065829146987426e-05
+    }
+  ],
+  "md_run": false,
+  "velocities_assigned": false,
+  "temperature_applied": false
+}

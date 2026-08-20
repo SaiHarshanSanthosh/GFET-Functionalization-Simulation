@@ -1,0 +1,20 @@
+{
+  "method": "Dynamic Yeh-Berkowitz correction implemented with CustomCVForce.",
+  "formula_energy": "U = 2*pi*k_e*Mz^2/V",
+  "formula_force": "Fz_i = -4*pi*k_e*q_i*Mz/V",
+  "particles": 14068,
+  "charged_particles_in_cv": 12426,
+  "total_charge_e": -4.263256414560601e-14,
+  "volume_nm3": 786.1259000312865,
+  "Mz_e_nm": -0.7319326636677701,
+  "coefficient": 1.1104547194676495,
+  "expected_energy_kJ_mol": 0.5948988255792877,
+  "actual_energy_kJ_mol": 0.5949187953256577,
+  "energy_error_kJ_mol": 1.9969746369974395e-05,
+  "max_force_error_kJ_mol_nm": 2.6107060427715822e-05,
+  "rms_force_error_kJ_mol_nm": 1.2012751957330896e-05,
+  "max_xy_force_kJ_mol_nm": 0.0,
+  "yb_force_group": 29,
+  "platform": "CUDA",
+  "output_system_xml": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\graphene_opc_wetting_cylinder_25x50_yb.xml"
+}

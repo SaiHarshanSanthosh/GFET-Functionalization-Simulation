@@ -1,0 +1,138 @@
+{
+  "simulation": {
+    "start_ps": 0.0,
+    "end_ps": 8000.0000011710645,
+    "unique_rows": 8181,
+    "duplicate_boundary_rows_removed": 2
+  },
+  "predeclared_criteria": {
+    "contact_height_nm": 0.45,
+    "contact_sustained_ps": 20.0,
+    "stable_faceon_height_nm": 0.45,
+    "stable_faceon_tilt_deg": 30.0,
+    "stable_faceon_sustained_ps": 50.0
+  },
+  "first_raw_contact_ps": 4961.000000551939,
+  "first_raw_stable_geometry_ps": 4966.000000552957,
+  "first_sustained_contact": {
+    "onset_ps": 4966.000000552957,
+    "confirmation_ps": 4986.000000557032,
+    "observed_end_ps": 8000.0000011710645,
+    "observed_duration_ps": 3034.000000618107,
+    "right_censored_at_8ns": true
+  },
+  "first_stable_faceon_adsorption": {
+    "onset_ps": 4966.000000552957,
+    "confirmation_ps": 5016.000000563144,
+    "observed_end_ps": 8000.0000011710645,
+    "observed_duration_ps": 3034.000000618107,
+    "right_censored_at_8ns": true
+  },
+  "contact_episodes": [
+    {
+      "start_ps": 4961.000000551939,
+      "end_ps": 4961.000000551939,
+      "duration_ps": 0.0,
+      "start_ns": 4.961000000551938,
+      "end_ns": 4.961000000551938
+    },
+    {
+      "start_ps": 4964.00000055255,
+      "end_ps": 4964.00000055255,
+      "duration_ps": 0.0,
+      "start_ns": 4.9640000005525495,
+      "end_ns": 4.9640000005525495
+    },
+    {
+      "start_ps": 4966.000000552957,
+      "end_ps": 8000.0000011710645,
+      "duration_ps": 3034.000000618107,
+      "start_ns": 4.966000000552957,
+      "end_ns": 8.000000001171065
+    }
+  ],
+  "stable_geometry_episodes": [
+    {
+      "start_ps": 4966.000000552957,
+      "end_ps": 8000.0000011710645,
+      "duration_ps": 3034.000000618107,
+      "start_ns": 4.966000000552957,
+      "end_ns": 8.000000001171065
+    }
+  ],
+  "global_height_nm": {
+    "n": 8181,
+    "mean": 1.066719219004837,
+    "std": 0.7296398502509398,
+    "min": 0.29216517573116113,
+    "max": 2.6674805358376945,
+    "median": 0.8782081447161056,
+    "p05": 0.3195708262286917,
+    "p95": 2.264789184292158
+  },
+  "global_tilt_deg": {
+    "n": 8181,
+    "mean": 35.105177172962705,
+    "std": 28.67835110804188,
+    "min": 0.1382998823137714,
+    "max": 89.99472261866798,
+    "median": 35.68177662049015,
+    "p05": 1.7687929747684792,
+    "p95": 83.59614083360285
+  },
+  "pre_adsorption_height_nm": {
+    "n": 5146,
+    "mean": 1.4992644789751064,
+    "std": 0.5847210125924075,
+    "min": 0.44320041442439484,
+    "max": 2.6674805358376945,
+    "median": 1.628552919085727,
+    "p05": 0.5859643955565479,
+    "p95": 2.3364585886365608
+  },
+  "pre_adsorption_tilt_deg": {
+    "n": 5146,
+    "mean": 53.33394414551925,
+    "std": 20.212848180484418,
+    "min": 1.134066759780615,
+    "max": 89.99472261866798,
+    "median": 53.28842004452344,
+    "p05": 18.646241990581004,
+    "p95": 86.01992752739957
+  },
+  "post_adsorption_height_nm": {
+    "n": 3035,
+    "mean": 0.3333162839778166,
+    "std": 0.01277198219378678,
+    "min": 0.29216517573116113,
+    "max": 0.4211511637198015,
+    "median": 0.3326999626745174,
+    "p05": 0.31374320251875853,
+    "p95": 0.354780983509948
+  },
+  "post_adsorption_tilt_deg": {
+    "n": 3035,
+    "mean": 4.197356797089244,
+    "std": 2.319049562601765,
+    "min": 0.1382998823137714,
+    "max": 25.322640722202916,
+    "median": 3.90327864398429,
+    "p05": 1.0611033764998865,
+    "p95": 8.354177375710933
+  },
+  "post_adsorption_contact_violation_count": 0,
+  "post_adsorption_contact_violation_times_ps": [],
+  "post_adsorption_stable_geometry_violation_count": 0,
+  "post_adsorption_stable_geometry_violation_times_ps": [],
+  "temperature_K": {
+    "n": 8181,
+    "mean": 300.1061498079217,
+    "std": 1.9414857617635488,
+    "min": 292.87325853897585,
+    "max": 307.7490270679783,
+    "median": 300.11569527115086,
+    "p05": 296.93819341340503,
+    "p95": 303.2814120832348
+  },
+  "maximum_water_below_graphene": 0
+}

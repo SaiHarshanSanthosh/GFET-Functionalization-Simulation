@@ -1,0 +1,20 @@
+{
+  "benchmark": {
+    "energy_meV": -98.0,
+    "uncertainty_meV": 10.0,
+    "energy_kJ_mol": -9.4555625458,
+    "uncertainty_kJ_mol": 0.964853321
+  },
+  "global_minimum": {
+    "site": "hollow",
+    "orientation": "0-leg",
+    "distance_A": 3.1999999999999975,
+    "energy_kJ_mol": -7.781506279551569,
+    "energy_meV": -80.64962943265414,
+    "difference_from_benchmark_kJ_mol": 1.6740562662484306
+  },
+  "tile_radius": 3,
+  "far_reference_A": 15.0,
+  "graphene_coordinate_source": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\pyrene_peg5_graphene_supported_positions_nm.npy",
+  "note": "Rigid single-water interaction scan. Not a finite-temperature adsorption free energy."
+}

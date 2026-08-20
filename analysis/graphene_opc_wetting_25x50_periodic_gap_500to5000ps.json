@@ -1,0 +1,111 @@
+{
+  "analysis_interval_ps": [
+    500.0,
+    5000.0
+  ],
+  "frames": 2251,
+  "periodic_y_width_nm": 10.652112467,
+  "occupied_width_nm": {
+    "mean": 5.051831634507503,
+    "max": 7.060250282287598
+  },
+  "largest_dry_gap_nm": {
+    "mean": 5.600280832492498,
+    "min": 3.5918621847124026,
+    "max": 6.278291685292237
+  },
+  "mean_edge_occupancy_fraction": 0.0,
+  "blocks_500ps": [
+    {
+      "start_ps": 500.0,
+      "end_ps": 1000.0,
+      "midpoint_ps": 750.0,
+      "frames": 250,
+      "mean_occupied_width_nm": 5.072992474555969,
+      "max_occupied_width_nm": 5.633217811584473,
+      "mean_largest_dry_gap_nm": 5.579119992444031,
+      "min_largest_dry_gap_nm": 5.018894655415528
+    },
+    {
+      "start_ps": 1000.0,
+      "end_ps": 1500.0,
+      "midpoint_ps": 1250.0,
+      "frames": 250,
+      "mean_occupied_width_nm": 4.90608526802063,
+      "max_occupied_width_nm": 5.340330123901367,
+      "mean_largest_dry_gap_nm": 5.7460271989793705,
+      "min_largest_dry_gap_nm": 5.311782343098633
+    },
+    {
+      "start_ps": 1500.0,
+      "end_ps": 2000.0,
+      "midpoint_ps": 1750.0,
+      "frames": 250,
+      "mean_occupied_width_nm": 5.102523212432861,
+      "max_occupied_width_nm": 5.707635164260864,
+      "mean_largest_dry_gap_nm": 5.54958925456714,
+      "min_largest_dry_gap_nm": 4.944477302739136
+    },
+    {
+      "start_ps": 2000.0,
+      "end_ps": 2500.0,
+      "midpoint_ps": 2250.0,
+      "frames": 250,
+      "mean_occupied_width_nm": 5.096237802028656,
+      "max_occupied_width_nm": 7.060250282287598,
+      "mean_largest_dry_gap_nm": 5.555874664971345,
+      "min_largest_dry_gap_nm": 3.5918621847124026
+    },
+    {
+      "start_ps": 2500.0,
+      "end_ps": 3000.0,
+      "midpoint_ps": 2750.0,
+      "frames": 250,
+      "mean_occupied_width_nm": 5.101077549934387,
+      "max_occupied_width_nm": 5.563735008239746,
+      "mean_largest_dry_gap_nm": 5.551034917065613,
+      "min_largest_dry_gap_nm": 5.088377458760254
+    },
+    {
+      "start_ps": 3000.0,
+      "end_ps": 3500.0,
+      "midpoint_ps": 3250.0,
+      "frames": 250,
+      "mean_occupied_width_nm": 5.065462697982788,
+      "max_occupied_width_nm": 5.5152668952941895,
+      "mean_largest_dry_gap_nm": 5.586649769017213,
+      "min_largest_dry_gap_nm": 5.136845571705811
+    },
+    {
+      "start_ps": 3500.0,
+      "end_ps": 4000.0,
+      "midpoint_ps": 3750.0,
+      "frames": 250,
+      "mean_occupied_width_nm": 4.969387401580811,
+      "max_occupied_width_nm": 5.5674848556518555,
+      "mean_largest_dry_gap_nm": 5.6827250654191905,
+      "min_largest_dry_gap_nm": 5.084627611348145
+    },
+    {
+      "start_ps": 4000.0,
+      "end_ps": 4500.0,
+      "midpoint_ps": 4250.0,
+      "frames": 250,
+      "mean_occupied_width_nm": 5.149760175704956,
+      "max_occupied_width_nm": 5.89132022857666,
+      "mean_largest_dry_gap_nm": 5.502352291295045,
+      "min_largest_dry_gap_nm": 4.76079223842334
+    },
+    {
+      "start_ps": 4500.0,
+      "end_ps": 5000.0,
+      "midpoint_ps": 4750.0,
+      "frames": 251,
+      "mean_occupied_width_nm": 5.00315284349054,
+      "max_occupied_width_nm": 6.865255832672119,
+      "mean_largest_dry_gap_nm": 5.648959623509461,
+      "min_largest_dry_gap_nm": 3.786856634327881
+    }
+  ],
+  "note": "Diagnostic only. Oxygen-center dry gap and time-averaged density should be interpreted together."
+}

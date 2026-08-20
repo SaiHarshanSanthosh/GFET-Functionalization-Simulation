@@ -1,0 +1,71 @@
+{
+  "system_xml": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\pyrene_peg5_graphene_one_sided_opc_supported_pme_production_safe.xml",
+  "n_particles": 28224,
+  "graphene_cg1": {
+    "q_e": 0.2,
+    "sigma_nm": 0.3376506141751886,
+    "epsilon_kJ_mol": 0.263592,
+    "mass_amu": 10.011
+  },
+  "graphene_cge": {
+    "q_e": -0.1,
+    "sigma_nm": 0.0,
+    "epsilon_kJ_mol": 0.0,
+    "mass_amu": 1.0
+  },
+  "opc_O": {
+    "index": 3820,
+    "mass_amu": 16.0,
+    "virtual_site": false,
+    "q_e": 0.0,
+    "sigma_nm": 0.3166552081964338,
+    "epsilon_kJ_mol": 0.8903586015920001
+  },
+  "opc_H1": {
+    "index": 3821,
+    "mass_amu": 1.008,
+    "virtual_site": false,
+    "q_e": 0.679142,
+    "sigma_nm": 0.08908987181403394,
+    "epsilon_kJ_mol": 0.0
+  },
+  "opc_H2": {
+    "index": 3822,
+    "mass_amu": 1.008,
+    "virtual_site": false,
+    "q_e": 0.679142,
+    "sigma_nm": 0.08908987181403394,
+    "epsilon_kJ_mol": 0.0
+  },
+  "opc_M": {
+    "index": 3823,
+    "mass_amu": 0.0,
+    "virtual_site": true,
+    "q_e": -1.358284,
+    "sigma_nm": 0.08908987181403394,
+    "epsilon_kJ_mol": 0.0
+  },
+  "charges": {
+    "graphene_total_e": 4.263256414560601e-12,
+    "ligand_total_e": -7.62801619091924e-09,
+    "pyrene_subset_e": -1.272057144378042,
+    "one_water_e": 0.0,
+    "system_total_e": -7.623741415940799e-09
+  },
+  "cross_parameters": {
+    "cg1_O_sigma_nm": 0.3271529111858112,
+    "cg1_O_epsilon_kJ_mol": 0.4844495892359064,
+    "cge_O_epsilon_kJ_mol": 0.0
+  },
+  "cross_exceptions": {
+    "graphene_water": 0,
+    "graphene_ligand": 0,
+    "ligand_water": 0
+  },
+  "reference_values": {
+    "iff_expected_openmm_cg1_sigma_nm": 0.3376506141751886,
+    "iff_expected_cg1_epsilon_kJ_mol": 0.263592,
+    "opc_expected_O_sigma_nm": 0.316655,
+    "opc_expected_O_epsilon_kJ_mol": 0.89036
+  }
+}

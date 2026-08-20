@@ -1,0 +1,137 @@
+{
+  "status": "FAIL_RMS_FORCE_NOT_CONVERGED",
+  "energy_decreased": true,
+  "rms_force_converged": false,
+  "constraints_satisfied": true,
+  "one_sided_geometry_preserved": true,
+  "platform": "CUDA",
+  "total_particles": 28224,
+  "opc_waters": 6101,
+  "minimization_tolerance_kj_mol_nm": 10.0,
+  "max_iterations": 5000,
+  "constraint_tolerance": 1e-06,
+  "before_energy_kj_mol": -284451.60634944774,
+  "after_energy_kj_mol": -376662.3629455641,
+  "energy_change_kj_mol": -92210.75659611635,
+  "before_rms_force_component_kj_mol_nm": 728.8257275703646,
+  "after_rms_force_component_kj_mol_nm": 750.5365438103842,
+  "after_max_constraint_abs_error_nm": 4.876333531411703e-09,
+  "after_max_constraint_rel_error": 3.5562393484473644e-08,
+  "after_worst_constraint_index": 6062,
+  "after_worst_constraint_particles": [
+    11901,
+    11902
+  ],
+  "after_worst_constraint_target_nm": 0.13712051,
+  "after_worst_constraint_actual_nm": 0.13712051487633353,
+  "before_max_force_kj_mol_nm": 5966.061081333213,
+  "after_max_force_kj_mol_nm": 2728.433247006681,
+  "after_max_force_identity": "OPC water 3184 site O",
+  "before_max_graphene_force_kj_mol_nm": 111.71103217425674,
+  "after_max_graphene_force_kj_mol_nm": 121.41921169258873,
+  "before_max_ligand_force_kj_mol_nm": 191.01746609247692,
+  "after_max_ligand_force_kj_mol_nm": 196.62627737786212,
+  "before_max_water_force_kj_mol_nm": 5966.061081333213,
+  "after_max_water_force_kj_mol_nm": 2728.433247006681,
+  "graphene_max_displacement_nm": 0.008959693492486527,
+  "ligand_max_displacement_nm": 0.3714273879933958,
+  "water_max_displacement_nm": 0.510327892959381,
+  "after_graphene_carbon_z_min_nm": 0.49411035720221097,
+  "after_graphene_carbon_z_max_nm": 0.5087512937508389,
+  "after_water_oxygen_z_min_nm": 0.7950606643073908,
+  "after_water_oxygen_z_max_nm": 6.826671688182969,
+  "waters_below_graphene_after": 0,
+  "lowest_water_oxygen_gap_nm_after": 0.2863093705565518,
+  "before_energy_groups_kj_mol": {
+    "Graphene bonds": 0.29857504308165517,
+    "Graphene angles": 1.6098882734232045e-06,
+    "Graphene out-of-plane": 0.0,
+    "Pyrene-PEG5 bonds": 9.149605904295868,
+    "Pyrene-PEG5 angles": 19.253204775359233,
+    "Graphene support": 0.0,
+    "Pyrene-PEG5 torsions": 150.9556497370453,
+    "Unified nonbonded": -284693.97042196244,
+    "OPC bond terms": 0.0,
+    "OPC angle terms": 0.0,
+    "Yeh-Berkowitz slab correction": 62.7066546036451
+  },
+  "after_energy_groups_kj_mol": {
+    "Graphene bonds": 16.383101927251943,
+    "Graphene angles": 3.554455230246037,
+    "Graphene out-of-plane": 0.023024451788728584,
+    "Pyrene-PEG5 bonds": 11.64895328903528,
+    "Pyrene-PEG5 angles": 21.91468755564832,
+    "Graphene support": 12.69965968666645,
+    "Pyrene-PEG5 torsions": 151.71442215247362,
+    "Unified nonbonded": -376880.6969078486,
+    "OPC bond terms": 0.0,
+    "OPC angle terms": 0.0,
+    "Yeh-Berkowitz slab correction": 0.39555034749644125
+  },
+  "top_10_residual_forces": [
+    {
+      "rank": 1,
+      "particle": 16556,
+      "force_kj_mol_nm": 2728.433247006681,
+      "identity": "OPC water 3184 site O"
+    },
+    {
+      "rank": 2,
+      "particle": 14472,
+      "force_kj_mol_nm": 2720.2053306581224,
+      "identity": "OPC water 2663 site O"
+    },
+    {
+      "rank": 3,
+      "particle": 12808,
+      "force_kj_mol_nm": 2649.4306263565327,
+      "identity": "OPC water 2247 site O"
+    },
+    {
+      "rank": 4,
+      "particle": 17672,
+      "force_kj_mol_nm": 2606.12770752223,
+      "identity": "OPC water 3463 site O"
+    },
+    {
+      "rank": 5,
+      "particle": 21576,
+      "force_kj_mol_nm": 2599.680465958394,
+      "identity": "OPC water 4439 site O"
+    },
+    {
+      "rank": 6,
+      "particle": 21884,
+      "force_kj_mol_nm": 2590.104676922461,
+      "identity": "OPC water 4516 site O"
+    },
+    {
+      "rank": 7,
+      "particle": 5092,
+      "force_kj_mol_nm": 2588.7567199678706,
+      "identity": "OPC water 318 site O"
+    },
+    {
+      "rank": 8,
+      "particle": 8356,
+      "force_kj_mol_nm": 2580.962110348375,
+      "identity": "OPC water 1134 site O"
+    },
+    {
+      "rank": 9,
+      "particle": 12160,
+      "force_kj_mol_nm": 2577.7961230490073,
+      "identity": "OPC water 2085 site O"
+    },
+    {
+      "rank": 10,
+      "particle": 17388,
+      "force_kj_mol_nm": 2574.028810748887,
+      "identity": "OPC water 3392 site O"
+    }
+  ],
+  "md_run": false,
+  "velocities_assigned": false,
+  "temperature_applied": false,
+  "pyrene_peg5_restrained": false
+}

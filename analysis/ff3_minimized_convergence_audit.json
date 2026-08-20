@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "potential_energy_kj_mol": -376662.35546193365,
+  "raw_rms_force_components_kj_mol_nm": 750.5365871714674,
+  "constraint_projected_rms_force_components_kj_mol_nm": 6.1979043989707225,
+  "minimization_tolerance_kj_mol_nm": 10.0,
+  "max_projected_force_kj_mol_nm": 196.6262798076158,
+  "max_projected_force_particle": 3817,
+  "waters_below_graphene": 0,
+  "opc_waters": 6101,
+  "method": "Rigid-OPC constraint-normal force components removed before RMS convergence assessment."
+}

@@ -1,0 +1,237 @@
+{
+  "status": "WATER_WAS_ALREADY_PACKED_BELOW_GRAPHENE",
+  "n_waters": 6134,
+  "graphene_z_min_nm": 0.49473358139019297,
+  "graphene_z_max_nm": 0.511079123770843,
+  "graphene_z_mean_nm": 0.5045751647928569,
+  "graphene_z_median_nm": 0.5044488890921943,
+  "premin_below_graphene_min": 33,
+  "premin_below_graphene_mean": 33,
+  "premin_below_graphene_max": 33,
+  "postmin_below_graphene_min": 33,
+  "postmin_below_graphene_mean": 33,
+  "postmin_below_graphene_max": 33,
+  "crossed_from_above_to_below_mean": 0,
+  "crossed_from_below_to_above_mean": 0,
+  "first_water_above_mean_z_nm": 0.8010776279457303,
+  "first_water_above_mean_gap_nm": 0.29650246315287343,
+  "first_water_above_max_z_nm": 0.8010776279457303,
+  "first_water_above_max_gap_nm": 0.2899985041748874,
+  "below_mean_water_indices": [
+    892,
+    906,
+    912,
+    940,
+    978,
+    986,
+    1128,
+    1146,
+    1487,
+    2402,
+    2419,
+    2426,
+    2494,
+    2500,
+    2894,
+    3951,
+    3968,
+    3975,
+    4008,
+    4051,
+    4059,
+    4208,
+    4226,
+    4368,
+    4578,
+    5492,
+    5509,
+    5515,
+    5583,
+    5589,
+    5710,
+    5814,
+    5971
+  ],
+  "below_min_water_indices": [
+    892,
+    906,
+    912,
+    940,
+    978,
+    986,
+    1128,
+    1146,
+    1487,
+    2402,
+    2419,
+    2426,
+    2494,
+    2500,
+    2894,
+    3951,
+    3968,
+    3975,
+    4008,
+    4051,
+    4059,
+    4208,
+    4226,
+    4368,
+    4578,
+    5492,
+    5509,
+    5515,
+    5583,
+    5589,
+    5710,
+    5814,
+    5971
+  ],
+  "below_mean_fraction": 0.005379850016302576,
+  "below_min_fraction": 0.005379850016302576,
+  "lowest_20_waters": [
+    {
+      "rank": 1,
+      "water_index": 5710,
+      "premin_z_nm": 0.10340000000000008,
+      "minimized_z_nm": 0.17043323697861168,
+      "relative_to_graphene_mean_nm": -0.33414192781424523
+    },
+    {
+      "rank": 2,
+      "water_index": 1128,
+      "premin_z_nm": 0.10340000000000008,
+      "minimized_z_nm": 0.17404518162499594,
+      "relative_to_graphene_mean_nm": -0.330529983167861
+    },
+    {
+      "rank": 3,
+      "water_index": 4208,
+      "premin_z_nm": 0.10340000000000008,
+      "minimized_z_nm": 0.17565050855178643,
+      "relative_to_graphene_mean_nm": -0.3289246562410705
+    },
+    {
+      "rank": 4,
+      "water_index": 940,
+      "premin_z_nm": 0.1190999999999999,
+      "minimized_z_nm": 0.17618253142037776,
+      "relative_to_graphene_mean_nm": -0.32839263337247915
+    },
+    {
+      "rank": 5,
+      "water_index": 5971,
+      "premin_z_nm": 0.1324,
+      "minimized_z_nm": 0.1764192760525798,
+      "relative_to_graphene_mean_nm": -0.3281558887402771
+    },
+    {
+      "rank": 6,
+      "water_index": 3975,
+      "premin_z_nm": 0.11980000000000005,
+      "minimized_z_nm": 0.17724924738260173,
+      "relative_to_graphene_mean_nm": -0.3273259174102552
+    },
+    {
+      "rank": 7,
+      "water_index": 5515,
+      "premin_z_nm": 0.11980000000000005,
+      "minimized_z_nm": 0.17776844115590684,
+      "relative_to_graphene_mean_nm": -0.32680672363695007
+    },
+    {
+      "rank": 8,
+      "water_index": 5814,
+      "premin_z_nm": 0.13649999999999976,
+      "minimized_z_nm": 0.17784301710876016,
+      "relative_to_graphene_mean_nm": -0.32673214768409675
+    },
+    {
+      "rank": 9,
+      "water_index": 4008,
+      "premin_z_nm": 0.1190999999999999,
+      "minimized_z_nm": 0.17887452429402417,
+      "relative_to_graphene_mean_nm": -0.32570064049883274
+    },
+    {
+      "rank": 10,
+      "water_index": 912,
+      "premin_z_nm": 0.11980000000000005,
+      "minimized_z_nm": 0.1798751043008674,
+      "relative_to_graphene_mean_nm": -0.3247000604919895
+    },
+    {
+      "rank": 11,
+      "water_index": 4368,
+      "premin_z_nm": 0.13649999999999976,
+      "minimized_z_nm": 0.17987923900201164,
+      "relative_to_graphene_mean_nm": -0.3246959257908453
+    },
+    {
+      "rank": 12,
+      "water_index": 3968,
+      "premin_z_nm": 0.11560000000000006,
+      "minimized_z_nm": 0.1803162378120371,
+      "relative_to_graphene_mean_nm": -0.3242589269808198
+    },
+    {
+      "rank": 13,
+      "water_index": 2426,
+      "premin_z_nm": 0.11980000000000005,
+      "minimized_z_nm": 0.18034480019443677,
+      "relative_to_graphene_mean_nm": -0.32423036459842014
+    },
+    {
+      "rank": 14,
+      "water_index": 978,
+      "premin_z_nm": 0.1354000000000001,
+      "minimized_z_nm": 0.1804315670322545,
+      "relative_to_graphene_mean_nm": -0.3241435977606024
+    },
+    {
+      "rank": 15,
+      "water_index": 2894,
+      "premin_z_nm": 0.1324,
+      "minimized_z_nm": 0.18043757293882878,
+      "relative_to_graphene_mean_nm": -0.32413759185402813
+    },
+    {
+      "rank": 16,
+      "water_index": 2494,
+      "premin_z_nm": 0.1354000000000001,
+      "minimized_z_nm": 0.18110354442007504,
+      "relative_to_graphene_mean_nm": -0.3234716203727819
+    },
+    {
+      "rank": 17,
+      "water_index": 906,
+      "premin_z_nm": 0.11560000000000006,
+      "minimized_z_nm": 0.181693650623453,
+      "relative_to_graphene_mean_nm": -0.3228815141694039
+    },
+    {
+      "rank": 18,
+      "water_index": 5509,
+      "premin_z_nm": 0.11560000000000006,
+      "minimized_z_nm": 0.1825030456587834,
+      "relative_to_graphene_mean_nm": -0.3220721191340735
+    },
+    {
+      "rank": 19,
+      "water_index": 2419,
+      "premin_z_nm": 0.11560000000000006,
+      "minimized_z_nm": 0.18537041429908496,
+      "relative_to_graphene_mean_nm": -0.31920475049377195
+    },
+    {
+      "rank": 20,
+      "water_index": 5492,
+      "premin_z_nm": 0.12879999999999994,
+      "minimized_z_nm": 0.18550838915187207,
+      "relative_to_graphene_mean_nm": -0.31906677564098485
+    }
+  ],
+  "coordinates_modified": false,
+  "waters_removed": false,
+  "md_run": false
+}

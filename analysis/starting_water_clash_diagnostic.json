@@ -1,0 +1,214 @@
+{
+  "status": "SEVERE_WATER_WATER_OVERLAP",
+  "n_waters": 6196,
+  "opc_oxygen_charge_e": 0.0,
+  "opc_oxygen_sigma_nm": 0.3166552081964338,
+  "opc_oxygen_epsilon_kj_mol": 0.8903586015920001,
+  "oo_lj_minimum_nm": 0.3554334536,
+  "closest_oo_water_1": 5503,
+  "closest_oo_water_2": 6176,
+  "closest_oo_distance_nm": 0.18213685491857398,
+  "closest_oo_relative_to_lj_minimum": 0.512435880961133,
+  "closest_oo_lj_energy_kj_mol": 2617.4087066338307,
+  "closest_oo_lj_force_kj_mol_nm": 175686.47454481333,
+  "water_water_threshold_counts": {
+    "0.18": 0,
+    "0.20": 62,
+    "0.22": 129,
+    "0.24": 214,
+    "0.26": 1052,
+    "0.28": 5627,
+    "0.30": 6187
+  },
+  "closest_water_pairs": [
+    {
+      "rank": 1,
+      "water_1": 5503,
+      "water_2": 6176,
+      "oo_distance_nm": 0.18213685491857398,
+      "relative_to_oo_lj_minimum": 0.512435880961133
+    },
+    {
+      "rank": 2,
+      "water_1": 2379,
+      "water_2": 3070,
+      "oo_distance_nm": 0.182136900014201,
+      "relative_to_oo_lj_minimum": 0.5124360078361543
+    },
+    {
+      "rank": 3,
+      "water_1": 3900,
+      "water_2": 4821,
+      "oo_distance_nm": 0.18213690001420596,
+      "relative_to_oo_lj_minimum": 0.5124360078361683
+    },
+    {
+      "rank": 4,
+      "water_1": 811,
+      "water_2": 1696,
+      "oo_distance_nm": 0.1821369000142062,
+      "relative_to_oo_lj_minimum": 0.5124360078361689
+    },
+    {
+      "rank": 5,
+      "water_1": 2039,
+      "water_2": 3929,
+      "oo_distance_nm": 0.18338168286535125,
+      "relative_to_oo_lj_minimum": 0.5159381622860029
+    },
+    {
+      "rank": 6,
+      "water_1": 2963,
+      "water_2": 4845,
+      "oo_distance_nm": 0.18338168286535125,
+      "relative_to_oo_lj_minimum": 0.5159381622860029
+    },
+    {
+      "rank": 7,
+      "water_1": 812,
+      "water_2": 5532,
+      "oo_distance_nm": 0.18397569277584647,
+      "relative_to_oo_lj_minimum": 0.517609389078188
+    },
+    {
+      "rank": 8,
+      "water_1": 1708,
+      "water_2": 6194,
+      "oo_distance_nm": 0.18397569277584647,
+      "relative_to_oo_lj_minimum": 0.517609389078188
+    },
+    {
+      "rank": 9,
+      "water_1": 1369,
+      "water_2": 5961,
+      "oo_distance_nm": 0.18397569277585224,
+      "relative_to_oo_lj_minimum": 0.5176093890782042
+    },
+    {
+      "rank": 10,
+      "water_1": 531,
+      "water_2": 5007,
+      "oo_distance_nm": 0.18640035049536965,
+      "relative_to_oo_lj_minimum": 0.5244310815637013
+    }
+  ],
+  "lj_active_solute_particles": 1320,
+  "closest_solute_water": 896,
+  "closest_solute_particle": 3817,
+  "closest_solute_identity": "Pyrene-PEG5 atom 67",
+  "closest_solute_distance_nm": 0.31610181132696324,
+  "water_solute_threshold_counts": {
+    "0.18": 0,
+    "0.20": 0,
+    "0.22": 0,
+    "0.24": 0,
+    "0.26": 0,
+    "0.28": 0,
+    "0.30": 0
+  },
+  "top_force_water_diagnostics": [
+    {
+      "water": 1696,
+      "starting_force_kj_mol_nm": 179940.57409066413,
+      "nearest_water": 811,
+      "nearest_oo_distance_nm": 0.1821369000142062,
+      "nearest_oo_relative_to_lj_minimum": 0.5124360078361689,
+      "nearest_lj_solute_particle": 3818,
+      "nearest_lj_solute_identity": "Pyrene-PEG5 atom 68",
+      "nearest_lj_solute_distance_nm": 1.9176082340481857
+    },
+    {
+      "water": 3070,
+      "starting_force_kj_mol_nm": 179904.94415254242,
+      "nearest_water": 2379,
+      "nearest_oo_distance_nm": 0.182136900014201,
+      "nearest_oo_relative_to_lj_minimum": 0.5124360078361543,
+      "nearest_lj_solute_particle": 3790,
+      "nearest_lj_solute_identity": "Pyrene-PEG5 atom 40",
+      "nearest_lj_solute_distance_nm": 2.96415285447405
+    },
+    {
+      "water": 6176,
+      "starting_force_kj_mol_nm": 178968.32153264608,
+      "nearest_water": 5503,
+      "nearest_oo_distance_nm": 0.18213685491857398,
+      "nearest_oo_relative_to_lj_minimum": 0.512435880961133,
+      "nearest_lj_solute_particle": 3815,
+      "nearest_lj_solute_identity": "Pyrene-PEG5 atom 65",
+      "nearest_lj_solute_distance_nm": 1.9445867332067008
+    },
+    {
+      "water": 4821,
+      "starting_force_kj_mol_nm": 178943.81750701994,
+      "nearest_water": 3900,
+      "nearest_oo_distance_nm": 0.18213690001420596,
+      "nearest_oo_relative_to_lj_minimum": 0.5124360078361683,
+      "nearest_lj_solute_particle": 1141,
+      "nearest_lj_solute_identity": "graphene carbon core 1141",
+      "nearest_lj_solute_distance_nm": 2.999238207025742
+    },
+    {
+      "water": 2379,
+      "starting_force_kj_mol_nm": 174759.9797652402,
+      "nearest_water": 3070,
+      "nearest_oo_distance_nm": 0.182136900014201,
+      "nearest_oo_relative_to_lj_minimum": 0.5124360078361543,
+      "nearest_lj_solute_particle": 3790,
+      "nearest_lj_solute_identity": "Pyrene-PEG5 atom 40",
+      "nearest_lj_solute_distance_nm": 3.0751769473394424
+    },
+    {
+      "water": 811,
+      "starting_force_kj_mol_nm": 174737.84704196636,
+      "nearest_water": 1696,
+      "nearest_oo_distance_nm": 0.1821369000142062,
+      "nearest_oo_relative_to_lj_minimum": 0.5124360078361689,
+      "nearest_lj_solute_particle": 3816,
+      "nearest_lj_solute_identity": "Pyrene-PEG5 atom 66",
+      "nearest_lj_solute_distance_nm": 1.9677036336612481
+    },
+    {
+      "water": 3900,
+      "starting_force_kj_mol_nm": 174524.7479424765,
+      "nearest_water": 4821,
+      "nearest_oo_distance_nm": 0.18213690001420596,
+      "nearest_oo_relative_to_lj_minimum": 0.5124360078361683,
+      "nearest_lj_solute_particle": 1138,
+      "nearest_lj_solute_identity": "graphene carbon core 1138",
+      "nearest_lj_solute_distance_nm": 3.121737443139356
+    },
+    {
+      "water": 5503,
+      "starting_force_kj_mol_nm": 174503.6777709256,
+      "nearest_water": 6176,
+      "nearest_oo_distance_nm": 0.18213685491857398,
+      "nearest_oo_relative_to_lj_minimum": 0.512435880961133,
+      "nearest_lj_solute_particle": 3815,
+      "nearest_lj_solute_identity": "Pyrene-PEG5 atom 65",
+      "nearest_lj_solute_distance_nm": 2.1211356471968843
+    },
+    {
+      "water": 3929,
+      "starting_force_kj_mol_nm": 161111.86263670877,
+      "nearest_water": 2039,
+      "nearest_oo_distance_nm": 0.18338168286535125,
+      "nearest_oo_relative_to_lj_minimum": 0.5159381622860029,
+      "nearest_lj_solute_particle": 3815,
+      "nearest_lj_solute_identity": "Pyrene-PEG5 atom 65",
+      "nearest_lj_solute_distance_nm": 2.8027232545896736
+    },
+    {
+      "water": 4845,
+      "starting_force_kj_mol_nm": 161066.28032823047,
+      "nearest_water": 2963,
+      "nearest_oo_distance_nm": 0.18338168286535125,
+      "nearest_oo_relative_to_lj_minimum": 0.5159381622860029,
+      "nearest_lj_solute_particle": 3815,
+      "nearest_lj_solute_identity": "Pyrene-PEG5 atom 65",
+      "nearest_lj_solute_distance_nm": 2.2420048253197327
+    }
+  ],
+  "md_run": false,
+  "minimization_run": false,
+  "coordinates_modified": false
+}

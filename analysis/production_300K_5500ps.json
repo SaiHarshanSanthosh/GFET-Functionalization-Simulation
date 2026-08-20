@@ -1,0 +1,70 @@
+{
+  "protocol": {
+    "ensemble": "NVT",
+    "temperature_K": 300.0,
+    "friction_per_ps": 1.0,
+    "timestep_ps": 0.001,
+    "start_time_ps": 500.0,
+    "production_time_ps": 5000.0,
+    "end_time_ps": 5500.0,
+    "report_interval_ps": 2.0,
+    "checkpoint_interval_ps": 10.0,
+    "random_seed": 20260819,
+    "barostat": false,
+    "ions": false,
+    "ligand_restraint": false,
+    "graphene_support": true,
+    "water_walls": true
+  },
+  "system": {
+    "particles": 28224,
+    "massive_particles": 22123,
+    "constraints": 18303,
+    "degrees_of_freedom": 48066,
+    "waters": 6101,
+    "visible_dcd_atoms": 19623
+  },
+  "gpu_safety": {
+    "graphene_support_rewritten_to_global_z0": true,
+    "remaining_custom_external_per_particle_parameters": 0,
+    "safe_system_xml": "parameters\\combined\\pyrene_peg5_graphene_one_sided_opc_supported_pme_production_safe.xml"
+  },
+  "final": {
+    "time_ps": 5500.00000066666,
+    "step": 5500000,
+    "temperature_K": 304.50493131398133,
+    "potential_kJ_mol": -308372.38497121586,
+    "kinetic_kJ_mol": 60846.626073540996,
+    "pyrene_height_nm": 0.32860200220780067,
+    "pyrene_tilt_deg": 6.852653070272982,
+    "graphene_z_mean_nm": 0.49607601168237125,
+    "graphene_z_min_nm": 0.44963181260453156,
+    "graphene_z_max_nm": 0.5418579621042356,
+    "water_O_min_nm": 0.7629082713134645,
+    "water_O_max_nm": 6.589847789861835,
+    "waters_below_graphene": 0,
+    "lower_wall_violation_nm": 0.0,
+    "upper_wall_violation_nm": 0.0
+  },
+  "last_500ps": {
+    "temperature_mean_K": 300.0252765653808,
+    "temperature_std_K": 1.92696998043637,
+    "pyrene_height_mean_nm": 0.33322532070117206,
+    "pyrene_height_std_nm": 0.013131936207544298,
+    "pyrene_height_min_nm": 0.3013638621647373,
+    "pyrene_height_max_nm": 0.36808098185125837,
+    "pyrene_tilt_mean_deg": 4.284968065386648,
+    "pyrene_tilt_max_deg": 13.415622276824248,
+    "max_waters_below_graphene": 0,
+    "max_upper_wall_violation_nm": 0.021081223306784302
+  },
+  "outputs": {
+    "positions": "parameters\\combined\\pyrene_peg5_graphene_one_sided_opc_production_300K_5500ps_positions_nm.npy",
+    "velocities": "parameters\\combined\\pyrene_peg5_graphene_one_sided_opc_production_300K_5500ps_velocities_nm_per_ps.npy",
+    "checkpoint": "checkpoints\\pyrene_peg5_graphene_production_300K_5500ps.chk",
+    "recovery_checkpoint": "checkpoints\\pyrene_peg5_graphene_RECOVERY_300K_500to5500ps.chk",
+    "trajectory": "trajectories\\pyrene_peg5_graphene_production_300K_500to5500ps_visible.dcd",
+    "log": "analysis\\production_300K_500to5500ps_log.csv",
+    "metadata": "analysis\\production_300K_5500ps.json"
+  }
+}

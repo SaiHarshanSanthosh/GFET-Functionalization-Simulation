@@ -1,0 +1,16 @@
+{
+  "particles": 10318,
+  "water_count": 1642,
+  "virtual_sites": 1642,
+  "constraints": 4926,
+  "carbon_plane_nm": 0.49607601168237125,
+  "water_O_min_z_nm": 0.8165482510881379,
+  "water_O_max_z_nm": 3.997756841270032,
+  "minimum_OO_nm": 0.2537717246149658,
+  "minimum_OC_nm": 0.3183063944159168,
+  "maximum_initial_radial_O_nm": 1.599284850972992,
+  "initial_potential_energy_kJ_mol": -72339.21988131257,
+  "initial_rms_force_kJ_mol_nm": 1729.7646578207693,
+  "initial_max_force_kJ_mol_nm": 7496.600242181628,
+  "platform": "CUDA"
+}

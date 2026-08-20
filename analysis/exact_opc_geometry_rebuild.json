@@ -1,0 +1,36 @@
+{
+  "input_water_file": "parameters\\combined\\one_sided_opc_water_positions_nm.npy",
+  "output_water_file": "parameters\\combined\\one_sided_opc_water_positions_exact_nm.npy",
+  "n_waters": 6196,
+  "sites_per_water": 4,
+  "oxygen_positions_preserved": true,
+  "maximum_oxygen_shift_nm": 0.0,
+  "original_mean_oh1_nm": 0.09572349713001459,
+  "original_mean_oh2_nm": 0.09571920075602218,
+  "original_mean_hoh_angle_deg": 104.5224228112187,
+  "exact_opc_oh_nm": 0.087243313,
+  "exact_opc_hh_nm": 0.13712051,
+  "exact_opc_hoh_angle_deg": 103.59892973636502,
+  "exact_opc_mean_om_nm": 0.015939832999999983,
+  "m_site_parents": [
+    0,
+    1,
+    2
+  ],
+  "m_site_weights": [
+    0.7045587810585758,
+    0.1477206094707121,
+    0.1477206094707121
+  ],
+  "max_oh1_error_nm": 5.828670879282072e-16,
+  "max_oh2_error_nm": 5.689893001203927e-16,
+  "max_hh_error_nm": 9.159339953157541e-16,
+  "max_m_site_error_nm": 0.0,
+  "mean_hydrogen_adjustment_nm": 0.008510015408581765,
+  "max_hydrogen_adjustment_nm": 0.008631183680252676,
+  "oxygen_z_min_nm": 0.8630000000000007,
+  "oxygen_z_max_nm": 6.7999,
+  "md_run": false,
+  "minimization_run": false,
+  "status": "PASS"
+}

@@ -1,0 +1,30 @@
+{
+  "initial_waters": 7377,
+  "removed_below_graphene": 527,
+  "removed_above_top_boundary": 225,
+  "removed_for_solute_overlap": 429,
+  "retained_waters": 6196,
+  "retained_water_particles": 24784,
+  "minimum_retained_margin_nm": 0.00017134959325232346,
+  "effective_aqueous_volume_nm3": 185.3819830668316,
+  "expected_1X_counts": {
+    "Na+": 17.090912432432432,
+    "K+": 0.4636394234234234,
+    "Cl-": 15.581432864864864,
+    "H2PO4-": 0.16411027027027028,
+    "HPO4--": 0.9045043603603604
+  },
+  "expected_0.01X_counts": {
+    "Na+": 0.1709091243243243,
+    "K+": 0.004636394234234234,
+    "Cl-": 0.15581432864864864,
+    "H2PO4-": 0.0016411027027027026,
+    "HPO4--": 0.009045043603603604
+  },
+  "graphene_plane_z_nm": 0.5,
+  "top_water_boundary_nm": 6.8,
+  "explicit_SiO2": false,
+  "ions_added": false,
+  "production_system": false,
+  "note": "Geometry-only supported-graphene one-sided OPC checkpoint. Graphene restraints, substrate wall, periodic electrostatics, and ions have not yet been added."
+}

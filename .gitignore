@@ -1,0 +1,93 @@
+﻿# ============================================================
+# Python / environments
+# ============================================================
+akinwande_md/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ============================================================
+# MD trajectories and checkpoints
+# ============================================================
+trajectories/
+checkpoints/
+*.dcd
+*.xtc
+*.trr
+*.chk
+
+# ============================================================
+# Temporary / rescue / runtime files
+# ============================================================
+*.tmp
+*.bak
+*.log
+*.out
+*.err
+
+# Keep intentional analysis CSV/JSON outputs even though *.log
+# runtime logs are ignored.
+
+# ============================================================
+# VMD / rendered movie frames
+# ============================================================
+analysis/vmd_gif_frames/
+*.tga
+
+# ============================================================
+# Generated movie/video files
+# ============================================================
+*.mp4
+*.avi
+*.mov
+*.gif
+
+# ============================================================
+# OS/editor junk
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ============================================================
+# Amber / QM scratch files
+# ============================================================
+sqm.pdb
+sqm.in
+sqm.out
+mdinfo
+mdcrd
+restrt
+*.rst
+*.rst7
+*.nc
+
+# ============================================================
+# Large generated simulation-state arrays
+#
+# We will selectively version scientifically important inputs
+# later if needed. For the initial repository, avoid committing
+# bulky restart/state data.
+# ============================================================
+parameters/combined/*positions_nm.npy
+parameters/combined/*velocities*.npy
+
+# ============================================================
+# Generated publication outputs
+#
+# Keep final PNG/PDF figures; ignore miscellaneous old renders.
+# ============================================================
+analysis/*.tga
+
+# Amber / Antechamber scratch artifacts
+ANTECHAMBER_*
+ATOMTYPE.INF
+
+# Large generated analysis arrays
+analysis/*.npz
+

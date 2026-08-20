@@ -1,0 +1,12 @@
+source leaprc.gaff2
+
+PYR = loadmol2 parameters/ff2_pyrene/pyrene_gaff2_am1bcc_neutral.mol2
+loadamberparams parameters/ff2_pyrene/pyrene_gaff2.frcmod
+
+check PYR
+charge PYR
+
+saveamberparm PYR parameters/ff2_pyrene/pyrene_gaff2.prmtop parameters/ff2_pyrene/pyrene_gaff2.inpcrd
+savepdb PYR parameters/ff2_pyrene/pyrene_gaff2.pdb
+
+quit

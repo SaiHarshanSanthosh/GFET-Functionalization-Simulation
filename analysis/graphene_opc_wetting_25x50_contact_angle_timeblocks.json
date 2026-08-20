@@ -1,0 +1,72 @@
+{
+  "input": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\analysis\\graphene_opc_wetting_25x50_yb_300K_500ps_oxygen_trajectory.npz",
+  "density_fraction": 0.5,
+  "fit_z_min_nm": 0.75,
+  "blocks": [
+    {
+      "contact_angle_deg": 94.24003176723608,
+      "y0_nm": 0.006040416694825148,
+      "z0_nm": 0.16750065770228195,
+      "radius_nm": 2.26551271550268,
+      "rms_residual_nm": 0.032363038333177725,
+      "n_fit_points": 164,
+      "start_ps": 300.0,
+      "end_ps": 350.0,
+      "midpoint_ps": 325.0,
+      "frames": 25,
+      "bulk_density_nm^-3": 33.29278071798717,
+      "interface_density_nm^-3": 16.646390358993585
+    },
+    {
+      "contact_angle_deg": 90.31752610283495,
+      "y0_nm": 0.0037578068006656334,
+      "z0_nm": 0.013189847121766851,
+      "radius_nm": 2.3800450863961986,
+      "rms_residual_nm": 0.027198720236680386,
+      "n_fit_points": 164,
+      "start_ps": 350.0,
+      "end_ps": 400.0,
+      "midpoint_ps": 375.0,
+      "frames": 25,
+      "bulk_density_nm^-3": 32.82656967111529,
+      "interface_density_nm^-3": 16.413284835557644
+    },
+    {
+      "contact_angle_deg": 92.53698799196832,
+      "y0_nm": -0.06737571708061357,
+      "z0_nm": 0.10242294800623664,
+      "radius_nm": 2.3138937641904924,
+      "rms_residual_nm": 0.025686106002911203,
+      "n_fit_points": 158,
+      "start_ps": 400.0,
+      "end_ps": 450.0,
+      "midpoint_ps": 425.0,
+      "frames": 25,
+      "bulk_density_nm^-3": 33.45373288555605,
+      "interface_density_nm^-3": 16.726866442778025
+    },
+    {
+      "contact_angle_deg": 90.92439000119637,
+      "y0_nm": -0.052048760922510505,
+      "z0_nm": 0.03791690157661254,
+      "radius_nm": 2.350277134127308,
+      "rms_residual_nm": 0.03750110009315456,
+      "n_fit_points": 158,
+      "start_ps": 450.0,
+      "end_ps": 500.0,
+      "midpoint_ps": 475.0,
+      "frames": 26,
+      "bulk_density_nm^-3": 33.050362295842476,
+      "interface_density_nm^-3": 16.525181147921238
+    }
+  ],
+  "summary": {
+    "mean_angle_deg": 92.00473396580892,
+    "sd_angle_deg": 1.5242755709011349,
+    "min_angle_deg": 90.31752610283495,
+    "max_angle_deg": 94.24003176723608,
+    "span_angle_deg": 3.922505664401129,
+    "linear_slope_deg_per_ns": -15.454926817971483
+  },
+  "note": "Temporal convergence diagnostic for the nanoscale cylindrical-droplet pilot contact angle. Each block independently estimates density and fits its liquid-vapor interface."
+}

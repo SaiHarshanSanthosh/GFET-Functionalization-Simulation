@@ -1,0 +1,76 @@
+{
+  "aromatic_local_indices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "terminal_group_local_indices": {
+    "alkyne_C35": 35,
+    "alkyne_C36": 36,
+    "terminal_H69": 69
+  },
+  "before": {
+    "label": "assembled_start",
+    "graphene_plane_rms_nm": 0.0,
+    "graphene_normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "pyrene_plane_rms_nm": 0.0008484871090229768,
+    "pyrene_tilt_deg": 0.0,
+    "pyrene_height_nm": 0.3500000000000002,
+    "alkyne_C35_height_nm": 1.1817039873667667,
+    "alkyne_C36_height_nm": 1.1083647766864146,
+    "terminal_H69_height_nm": 1.0431355434108411,
+    "alkyne_C35_C36_bond_nm": 0.12092390169027936,
+    "alkyne_C35_C36_H69_angle_deg": 178.84152005236734,
+    "pyrene_center_to_terminal_C36_nm": 1.6941292737485751,
+    "ligand_min_height_nm": 0.2855925308108933,
+    "ligand_max_height_nm": 1.4768524873132378,
+    "ligand_vertical_span_nm": 1.1912599565023445
+  },
+  "after": {
+    "label": "minimized",
+    "graphene_plane_rms_nm": 0.001949944364173845,
+    "graphene_normal": [
+      6.472838477936002e-05,
+      -1.7951375963553904e-05,
+      0.9999999977439922
+    ],
+    "pyrene_plane_rms_nm": 0.000900162394865477,
+    "pyrene_tilt_deg": 2.1975224641953135,
+    "pyrene_height_nm": 0.3367423783011384,
+    "alkyne_C35_height_nm": 1.3328264059938018,
+    "alkyne_C36_height_nm": 1.3203792914639838,
+    "terminal_H69_height_nm": 1.3115257755781762,
+    "alkyne_C35_C36_bond_nm": 0.1209757207664711,
+    "alkyne_C35_C36_H69_angle_deg": 178.56795794620305,
+    "pyrene_center_to_terminal_C36_nm": 1.833392653869037,
+    "ligand_min_height_nm": 0.2993149737496503,
+    "ligand_max_height_nm": 1.4873890716277662,
+    "ligand_vertical_span_nm": 1.188074097878116
+  },
+  "changes": {
+    "pyrene_height_change_nm": -0.013257621698861799,
+    "pyrene_tilt_change_deg": 2.1975224641953135,
+    "pyrene_plane_rms_change_nm": 5.167528584250022e-05,
+    "terminal_C36_height_change_nm": 0.21201451477756916,
+    "terminal_H69_height_change_nm": 0.26839023216733504,
+    "pyrene_to_terminal_C36_change_nm": 0.1392633801204619,
+    "ligand_vertical_span_change_nm": -0.003185858624228599
+  }
+}

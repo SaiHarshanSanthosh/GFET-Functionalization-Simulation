@@ -1,0 +1,50 @@
+{
+  "purpose": "25x50 wide-box graphene/OPC wetting finite-size control",
+  "graphene_source": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\iff\\graphene_iff_full_terms_validation_nocutoff_25x50.xml",
+  "water_source": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\graphene_opc_wetting_cylinder.xml",
+  "water_position_source": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\graphene_opc_wetting_cylinder_positions_nm.npy",
+  "output_system": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\graphene_opc_wetting_cylinder_25x50.xml",
+  "output_positions": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\graphene_opc_wetting_cylinder_25x50_positions_nm.npy",
+  "particle_count": 14068,
+  "graphene_particles": 7500,
+  "graphene_carbon_cores": 2500,
+  "water_count": 1642,
+  "virtual_sites": 1642,
+  "constraints": 4926,
+  "nonbonded_exceptions": 99852,
+  "total_charge_e": -6.502287597243139e-11,
+  "box_nm": {
+    "a": [
+      6.15,
+      0.0,
+      0.0
+    ],
+    "b": [
+      0.0,
+      10.652112466548596,
+      0.0
+    ],
+    "c": [
+      0.0,
+      0.0,
+      12.0
+    ]
+  },
+  "carbon_plane_nm": 0.5,
+  "water_O_height_range_nm": [
+    0.3165482510881379,
+    3.497756841270032
+  ],
+  "initial_periodic_y": {
+    "occupied_width_nm": 3.1789641113237703,
+    "largest_dry_gap_nm": 7.473148355224826
+  },
+  "support": {
+    "particle_count": 2500,
+    "kz_kJ_mol_nm2": 1000.0,
+    "z0_nm": 0.5
+  },
+  "water_walls": false,
+  "yeh_berkowitz": false,
+  "initial_PE_kJ_mol": -98687.36020464415
+}

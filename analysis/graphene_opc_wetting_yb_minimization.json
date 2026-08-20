@@ -1,0 +1,44 @@
+{
+  "system_xml": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\graphene_opc_wetting_cylinder_yb.xml",
+  "input_positions": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\graphene_opc_wetting_cylinder_positions_nm.npy",
+  "output_positions": "C:\\Users\\saisa\\GFET Simulation\\graphene-functionalization-md\\parameters\\combined\\graphene_opc_wetting_cylinder_yb_minimized_positions_nm.npy",
+  "platform": "CUDA",
+  "particles": 10318,
+  "massive_particles": 8676,
+  "virtual_sites": 1642,
+  "constraints": 4926,
+  "minimization": {
+    "tolerance_kJ_mol_nm": 10.0,
+    "max_iterations": 5000,
+    "constraint_tolerance": 1e-06,
+    "wall_time_s": 1.7388644218444824
+  },
+  "initial": {
+    "potential_energy_kJ_mol": -72338.0736367245,
+    "rms_components_kJ_mol_nm": 951.6601867133286,
+    "rms_magnitude_kJ_mol_nm": 1648.3237949279694,
+    "max_magnitude_kJ_mol_nm": 7496.54812118515,
+    "constraints": {
+      "max_absolute_error_nm": 4.66935350412756e-07,
+      "rms_absolute_error_nm": 5.7847427076476086e-08,
+      "max_relative_error": 5.35210475572788e-06
+    }
+  },
+  "final": {
+    "potential_energy_kJ_mol": -106499.92762503249,
+    "energy_change_kJ_mol": -34161.853988307994,
+    "rms_components_kJ_mol_nm": 615.5554315353768,
+    "rms_magnitude_kJ_mol_nm": 1066.1732822942581,
+    "max_magnitude_kJ_mol_nm": 2780.122547429341,
+    "constraints": {
+      "max_absolute_error_nm": 4.876329395830936e-09,
+      "rms_absolute_error_nm": 3.4163432571553294e-09,
+      "max_relative_error": 3.556236332428268e-08
+    },
+    "yb_energy_kJ_mol": 0.2645002894723298,
+    "carbon_plane_nm": 0.5014168406285565,
+    "minimum_O_height_nm": 0.3019370966856213,
+    "maximum_O_height_nm": 3.571388642471001
+  },
+  "note": "Energy minimization only. No heating or molecular dynamics."
+}

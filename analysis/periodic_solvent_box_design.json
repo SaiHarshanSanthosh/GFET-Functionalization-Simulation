@@ -1,0 +1,47 @@
+{
+  "water_padding_nm": 2.5,
+  "box_z_rounding_nm": 0.5,
+  "solute_z_span_nm": 1.541852487313239,
+  "box_vectors_nm": [
+    [
+      6.15,
+      0.0,
+      0.0
+    ],
+    [
+      -3.075,
+      5.326056233274298,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      7.0
+    ]
+  ],
+  "box_volume_nm3": 229.28672084245852,
+  "bottom_gap_nm": 2.7290737563433805,
+  "top_gap_nm": 2.7290737563433805,
+  "minimum_ligand_image_distance_nm": 4.363915535709706,
+  "minimum_ligand_image_translation": [
+    0,
+    -1,
+    0
+  ],
+  "rough_full_box_water_count": 7663.422835582215,
+  "expected_1X_counts": {
+    "Na+": 21.138619854041107,
+    "K+": 0.5734449556067197,
+    "Cl-": 19.2716443556644,
+    "H2PO4-": 0.2029771453748803,
+    "HPO4--": 1.1187216543042722
+  },
+  "expected_0.01X_counts": {
+    "Na+": 0.21138619854041105,
+    "K+": 0.0057344495560671975,
+    "Cl-": 0.192716443556644,
+    "H2PO4-": 0.002029771453748803,
+    "HPO4--": 0.011187216543042722
+  },
+  "note": "Expected ion counts are continuous statistical targets. They have intentionally NOT been rounded to whole particles."
+}

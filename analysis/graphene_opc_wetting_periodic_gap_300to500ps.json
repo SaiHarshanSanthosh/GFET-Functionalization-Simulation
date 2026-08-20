@@ -1,0 +1,19 @@
+{
+  "analysis_interval_ps": [
+    300.0,
+    500.0
+  ],
+  "frames": 101,
+  "periodic_y_width_nm": 5.32605623,
+  "occupied_width_nm": {
+    "mean": 5.301221555687481,
+    "max": 5.307531583240967
+  },
+  "largest_dry_gap_nm": {
+    "mean": 0.02483467431251906,
+    "min": 0.018524646759033203,
+    "max": 0.03538825525573763
+  },
+  "mean_edge_occupancy_fraction": 0.8883166568569746,
+  "note": "Diagnostic only. Oxygen-center dry gap and time-averaged density should be interpreted together."
+}

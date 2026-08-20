@@ -1,0 +1,124 @@
+{
+  "status": "MINIMIZED_BUT_INSPECT_RESIDUAL_FORCES",
+  "platform": "CUDA",
+  "total_particles": 28224,
+  "opc_waters": 6101,
+  "minimization_tolerance_kj_mol_nm": 10.0,
+  "max_iterations": 2000,
+  "constraint_tolerance": 1e-06,
+  "before_energy_kj_mol": -284514.3875087146,
+  "after_energy_kj_mol": -375728.1443784321,
+  "energy_change_kj_mol": -91213.7568697175,
+  "before_rms_force_component_kj_mol_nm": 728.7168715203063,
+  "after_rms_force_component_kj_mol_nm": 748.1185137556822,
+  "before_max_force_kj_mol_nm": 5964.6254615439475,
+  "after_max_force_kj_mol_nm": 2658.25172035927,
+  "after_max_force_identity": "OPC water 2663 site O",
+  "before_max_graphene_force_kj_mol_nm": 114.0003993579,
+  "after_max_graphene_force_kj_mol_nm": 75.40296343950254,
+  "before_max_ligand_force_kj_mol_nm": 187.7911095721804,
+  "after_max_ligand_force_kj_mol_nm": 155.05194195843106,
+  "before_max_water_force_kj_mol_nm": 5964.6254615439475,
+  "after_max_water_force_kj_mol_nm": 2658.25172035927,
+  "graphene_max_displacement_nm": 0.009102322536118508,
+  "ligand_max_displacement_nm": 0.32968311135477635,
+  "water_max_displacement_nm": 0.4535833763485746,
+  "after_graphene_carbon_z_min_nm": 0.4943324142378689,
+  "after_graphene_carbon_z_max_nm": 0.5089109155362941,
+  "after_water_oxygen_z_min_nm": 0.7960508087771601,
+  "after_water_oxygen_z_max_nm": 6.808600899370352,
+  "waters_outside_nominal_wall": 5,
+  "maximum_wall_violation_nm": 0.008600899370351911,
+  "before_energy_groups_kj_mol": {
+    "Graphene bonds": 0.29857504308165517,
+    "Graphene angles": 1.6098882734232045e-06,
+    "Graphene out-of-plane": 0.0,
+    "Pyrene-PEG5 bonds": 9.149605904295868,
+    "Pyrene-PEG5 angles": 19.253204775359233,
+    "Graphene support": 0.0,
+    "Water wall": 0.0,
+    "Pyrene-PEG5 torsions": 150.9556497370453,
+    "Unified nonbonded": -284694.0446880213,
+    "OPC bond terms": 0.0,
+    "OPC angle terms": 0.0
+  },
+  "after_energy_groups_kj_mol": {
+    "Graphene bonds": 16.994812797903393,
+    "Graphene angles": 3.5711612030095443,
+    "Graphene out-of-plane": 0.025407765000153404,
+    "Pyrene-PEG5 bonds": 10.541090867231105,
+    "Pyrene-PEG5 angles": 21.43691893187939,
+    "Graphene support": 14.013929949416024,
+    "Water wall": 0.5826999992132187,
+    "Pyrene-PEG5 torsions": 153.75065667193167,
+    "Unified nonbonded": -375949.0611215909,
+    "OPC bond terms": 0.0,
+    "OPC angle terms": 0.0
+  },
+  "top_10_residual_forces": [
+    {
+      "rank": 1,
+      "particle": 14472,
+      "force_kj_mol_nm": 2658.25172035927,
+      "identity": "OPC water 2663 site O"
+    },
+    {
+      "rank": 2,
+      "particle": 21884,
+      "force_kj_mol_nm": 2638.0939159449695,
+      "identity": "OPC water 4516 site O"
+    },
+    {
+      "rank": 3,
+      "particle": 11928,
+      "force_kj_mol_nm": 2606.0292985749297,
+      "identity": "OPC water 2027 site O"
+    },
+    {
+      "rank": 4,
+      "particle": 14048,
+      "force_kj_mol_nm": 2603.524279912959,
+      "identity": "OPC water 2557 site O"
+    },
+    {
+      "rank": 5,
+      "particle": 12808,
+      "force_kj_mol_nm": 2601.0231740206655,
+      "identity": "OPC water 2247 site O"
+    },
+    {
+      "rank": 6,
+      "particle": 9396,
+      "force_kj_mol_nm": 2598.086923445601,
+      "identity": "OPC water 1394 site O"
+    },
+    {
+      "rank": 7,
+      "particle": 16556,
+      "force_kj_mol_nm": 2597.577687971267,
+      "identity": "OPC water 3184 site O"
+    },
+    {
+      "rank": 8,
+      "particle": 21892,
+      "force_kj_mol_nm": 2588.482262271342,
+      "identity": "OPC water 4518 site O"
+    },
+    {
+      "rank": 9,
+      "particle": 15072,
+      "force_kj_mol_nm": 2587.913280983446,
+      "identity": "OPC water 2813 site O"
+    },
+    {
+      "rank": 10,
+      "particle": 5372,
+      "force_kj_mol_nm": 2587.219122346435,
+      "identity": "OPC water 388 site O"
+    }
+  ],
+  "md_run": false,
+  "velocities_assigned": false,
+  "temperature_applied": false,
+  "pyrene_peg5_restrained": false
+}
