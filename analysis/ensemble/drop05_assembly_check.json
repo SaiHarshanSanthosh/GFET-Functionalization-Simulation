@@ -1,0 +1,117 @@
+{
+  "drop_id": "drop05",
+  "graphene_particles": 3750,
+  "pyrene_peg5_particles": 70,
+  "opc_waters": 6034,
+  "opc_sites_per_water": 4,
+  "opc_total_sites": 24136,
+  "total_particles": 27956,
+  "virtual_sites": 6034,
+  "constraints": 18102,
+  "base_nonbonded_exceptions": 45357,
+  "final_nonbonded_exceptions": 81561,
+  "total_charge_e": -7.623741415940799e-09,
+  "nonbonded_method": "PME",
+  "nonbonded_cutoff_nm": 1.0,
+  "ewald_error_tolerance": 0.0005,
+  "dispersion_correction": false,
+  "box_z_nm": 12.0,
+  "final_box_volume_nm3": 393.0629500156433,
+  "yeh_berkowitz_enabled": true,
+  "yeh_berkowitz_force_group": 29,
+  "yeh_berkowitz_coefficient": 2.220909438935299,
+  "yb_charged_particles": 21922,
+  "lower_water_boundary_nm": 0.1,
+  "upper_water_boundary_nm": 6.8,
+  "graphene_support_k_kj_mol_nm2": 1000.0,
+  "maximum_opc_m_site_error_nm": 6.347540693456149e-07,
+  "maximum_constraint_adjustment_nm": 5.268666631914799e-07,
+  "total_potential_energy_kj_mol": -302820.91551715974,
+  "energy_by_force_group_kj_mol": {
+    "Graphene bonds": 5076.7754489632425,
+    "Graphene angles": 8786.670108348559,
+    "Graphene out-of-plane": 14.469941117560666,
+    "Pyrene-PEG5 bonds": 11.649046340124501,
+    "Pyrene-PEG5 angles": 21.91454472187157,
+    "Graphene support": 98.79234293505169,
+    "Pyrene-PEG5 torsions": 151.7144338639714,
+    "Unified nonbonded": -316982.96580460994,
+    "OPC bond terms": 0.0,
+    "OPC angle terms": 0.0,
+    "Yeh-Berkowitz slab correction": 0.06445884755106102
+  },
+  "max_force_kj_mol_nm": 7972.152651213504,
+  "max_force_particle": 1202,
+  "max_force_identity": "graphene carbon core 1202",
+  "max_graphene_force_kj_mol_nm": 7972.152651213504,
+  "max_ligand_force_kj_mol_nm": 364.89699015440567,
+  "max_water_force_kj_mol_nm": 3513.838350355755,
+  "top_10_forces": [
+    {
+      "rank": 1,
+      "particle": 1202,
+      "force_kj_mol_nm": 7972.152651213504,
+      "description": "graphene carbon core 1202"
+    },
+    {
+      "rank": 2,
+      "particle": 664,
+      "force_kj_mol_nm": 7204.312610990072,
+      "description": "graphene carbon core 664"
+    },
+    {
+      "rank": 3,
+      "particle": 878,
+      "force_kj_mol_nm": 7072.4631951877745,
+      "description": "graphene carbon core 878"
+    },
+    {
+      "rank": 4,
+      "particle": 658,
+      "force_kj_mol_nm": 6964.709933393451,
+      "description": "graphene carbon core 658"
+    },
+    {
+      "rank": 5,
+      "particle": 493,
+      "force_kj_mol_nm": 6892.86958422048,
+      "description": "graphene carbon core 493"
+    },
+    {
+      "rank": 6,
+      "particle": 1223,
+      "force_kj_mol_nm": 6658.032375307992,
+      "description": "graphene carbon core 1223"
+    },
+    {
+      "rank": 7,
+      "particle": 213,
+      "force_kj_mol_nm": 6611.010541795699,
+      "description": "graphene carbon core 213"
+    },
+    {
+      "rank": 8,
+      "particle": 598,
+      "force_kj_mol_nm": 6590.977095638799,
+      "description": "graphene carbon core 598"
+    },
+    {
+      "rank": 9,
+      "particle": 952,
+      "force_kj_mol_nm": 6389.80201789059,
+      "description": "graphene carbon core 952"
+    },
+    {
+      "rank": 10,
+      "particle": 150,
+      "force_kj_mol_nm": 6276.462129719421,
+      "description": "graphene carbon core 150"
+    }
+  ],
+  "starting_condition": "READY_FOR_CAREFUL_MINIMIZATION",
+  "ions_added": false,
+  "pyrene_peg5_restrained": false,
+  "md_run": false,
+  "minimization_run": false,
+  "status": "ENERGY_CHECK_COMPLETE"
+}

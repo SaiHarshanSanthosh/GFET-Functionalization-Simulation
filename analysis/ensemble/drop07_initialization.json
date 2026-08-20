@@ -1,0 +1,31 @@
+{
+  "status": "DROP07_INITIAL_CONFIGURATION_PASS",
+  "md_steps": 0,
+  "minimization_steps": 0,
+  "drop_id": "drop07",
+  "target_pyrene_height_nm": 2.0,
+  "requested_tilt_deg": 90.0,
+  "requested_azimuth_deg": 0.0,
+  "reference_pyrene_tilt_deg": 2.201367545490798,
+  "rigid_rotation_applied_deg": 88.11627382714501,
+  "shift_a_frac": 0.0,
+  "shift_b_frac": 0.0,
+  "actual_pyrene_height_nm": 2.0,
+  "initial_pyrene_tilt_deg": 89.99999999999999,
+  "ligand_min_height_nm": 1.6013832134844046,
+  "ligand_max_height_nm": 3.2199340436816812,
+  "terminal_heights_nm": {
+    "35": 3.093267793996424,
+    "36": 3.1394656658176423,
+    "69": 3.181849994540849
+  },
+  "original_waters": 6101,
+  "removed_overlap_waters": 66,
+  "final_waters": 6035,
+  "prune_fraction": 0.010817898705130306,
+  "waters_below_graphene": 0,
+  "ligand_lj_atoms_checked": 70,
+  "solute_output": "parameters\\ensemble\\drop07_supported_solute_positions_nm.npy",
+  "water_output": "parameters\\ensemble\\drop07_opc_water_positions_nm.npy",
+  "vmd_pdb": "visualization\\ensemble\\drop07_initial.pdb"
+}
