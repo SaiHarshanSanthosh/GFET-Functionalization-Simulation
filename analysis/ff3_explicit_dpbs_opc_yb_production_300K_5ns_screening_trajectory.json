@@ -1,0 +1,127 @@
+{
+  "format": "NumPy .npy matrix",
+  "dtype": "float32",
+  "units": {
+    "time": "ps",
+    "coordinates": "nm"
+  },
+  "source_checkpoint": "checkpoints\\ff3_explicit_dpbs_opc_yb_equilibration_300K_continue500ps.chk",
+  "scientific_equilibration_before_production_ps": 1000.0,
+  "source_checkpoint_openmm_time_ps": 499.99999999508844,
+  "production_duration_ps": 5000.0,
+  "frame_interval_ps": 1.0,
+  "n_frames": 5001,
+  "n_columns": 989,
+  "matrix_shape": [
+    5001,
+    989
+  ],
+  "layout": {
+    "production_elapsed_ps": {
+      "start_column_inclusive": 0,
+      "end_column_exclusive": 1,
+      "shape": [
+        1
+      ],
+      "description": "Elapsed time since beginning of production MD."
+    },
+    "openmm_context_time_ps": {
+      "start_column_inclusive": 1,
+      "end_column_exclusive": 2,
+      "shape": [
+        1
+      ],
+      "description": "Exact OpenMM Context clock preserved from checkpoint."
+    },
+    "graphene_z_summary_nm": {
+      "start_column_inclusive": 2,
+      "end_column_exclusive": 5,
+      "shape": [
+        3
+      ],
+      "description": "Graphene carbon mean, minimum, maximum z."
+    },
+    "ligand_xyz_nm": {
+      "start_column_inclusive": 5,
+      "end_column_exclusive": 215,
+      "shape": [
+        70,
+        3
+      ],
+      "description": "Pyrene-PEG5 particle Cartesian coordinates."
+    },
+    "na_xyz_nm": {
+      "start_column_inclusive": 215,
+      "end_column_exclusive": 548,
+      "shape": [
+        111,
+        3
+      ],
+      "description": "Na+ Cartesian coordinates."
+    },
+    "k_xyz_nm": {
+      "start_column_inclusive": 548,
+      "end_column_exclusive": 557,
+      "shape": [
+        3,
+        3
+      ],
+      "description": "K+ Cartesian coordinates."
+    },
+    "cl_xyz_nm": {
+      "start_column_inclusive": 557,
+      "end_column_exclusive": 860,
+      "shape": [
+        101,
+        3
+      ],
+      "description": "Cl- Cartesian coordinates."
+    },
+    "h2po4_xyz_nm": {
+      "start_column_inclusive": 860,
+      "end_column_exclusive": 881,
+      "shape": [
+        7,
+        3
+      ],
+      "description": "All H2PO4- particle coordinates."
+    },
+    "hpo4_xyz_nm": {
+      "start_column_inclusive": 881,
+      "end_column_exclusive": 989,
+      "shape": [
+        36,
+        3
+      ],
+      "description": "All HPO4^2- particle coordinates."
+    }
+  },
+  "species_counts": {
+    "na": 111,
+    "k": 3,
+    "cl": 101,
+    "h2po4_molecules": 1,
+    "hpo4_molecules": 6
+  },
+  "box_vectors_nm": [
+    [
+      6.15,
+      0.0,
+      0.0
+    ],
+    [
+      -3.075,
+      5.326056233274298,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      41.907941
+    ]
+  ],
+  "phosphate_note": "All phosphate particle coordinates are retained. The phosphorus reference particle will be identified from molecular topology during post-processing rather than assumed here.",
+  "trajectory_file": "analysis\\ff3_explicit_dpbs_opc_yb_production_300K_5ns_screening_trajectory_float32.npy",
+  "rescue_checkpoint_file": "checkpoints\\ff3_explicit_dpbs_opc_yb_production_300K_5ns_rescue.chk",
+  "rescue_progress_file": "analysis\\ff3_explicit_dpbs_opc_yb_production_300K_5ns_rescue_progress.json"
+}
