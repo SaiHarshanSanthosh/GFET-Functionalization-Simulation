@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "potential_energy_kj_mol": -2323966.173222102,
+  "raw_rms_force_components_kj_mol_nm": 819.09215764144,
+  "constraint_projected_rms_force_components_kj_mol_nm": 4.365905906583892,
+  "minimization_tolerance_kj_mol_nm": 10.0,
+  "max_projected_force_kj_mol_nm": 449.79505335584605,
+  "max_projected_force_particle": 151860,
+  "waters_below_graphene": 0,
+  "na_below_graphene": 0,
+  "k_below_graphene": 0,
+  "cl_below_graphene": 0,
+  "h2po4_atoms_below_graphene": 0,
+  "hpo4_atoms_below_graphene": 0,
+  "opc_waters": 36949,
+  "na_ions": 111,
+  "k_ions": 3,
+  "cl_ions": 101,
+  "h2po4_ions": 1,
+  "hpo4_ions": 6,
+  "method": "Rigid-OPC constraint-normal force components removed before RMS convergence assessment; all explicit-DPBS species checked for one-sided geometry."
+}

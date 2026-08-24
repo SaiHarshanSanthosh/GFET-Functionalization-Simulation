@@ -1,0 +1,12 @@
+{
+  "status": "PRODUCTION_RESCUE_CHECKPOINT",
+  "production_elapsed_ps": 10000.0,
+  "openmm_context_time_ps": 11000.000001782244,
+  "frames_written": 10001,
+  "screening_frames_written": 10001,
+  "water_frames_written": 1001,
+  "water_frame_interval_ps": 10.0,
+  "water_trajectory": "analysis\\ff3_explicit_dpbs_opc_yb_replicaB_production_300K_10ns_opc_ohh_10ps_float32.npy",
+  "screening_trajectory": "analysis\\ff3_explicit_dpbs_opc_yb_replicaB_production_300K_10ns_screening_trajectory_float32.npy",
+  "rescue_checkpoint": "checkpoints\\ff3_explicit_dpbs_opc_yb_replicaB_production_300K_10ns_rescue.chk"
+}
