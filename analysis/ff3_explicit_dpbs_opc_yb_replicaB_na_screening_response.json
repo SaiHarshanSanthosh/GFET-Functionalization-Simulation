@@ -1,0 +1,143 @@
+{
+  "method": "Planar-averaged solution potential from framewise charge dipole moment",
+  "electrostatic_relation": "phi_graphene_minus_vacuum = -Mz/(epsilon0*A)",
+  "explicit_water_relative_permittivity_used": 1.0,
+  "area_nm2": 32.75524583463694,
+  "solution_net_charge_e": -1.9701130504756748e-08,
+  "probe_charge_e": 1.0,
+  "reference_branch": "bulk_reference",
+  "reference_mean_height_nm": 4.999059548177342,
+  "rows": [
+    {
+      "branch": "probe_0p5nm",
+      "target_nm": 0.5,
+      "mean_height_nm": 0.5199682393876632,
+      "height_sd_nm": 0.064039071879764,
+      "mean_solution_Mz_e_nm": 0.11185766140772198,
+      "delta_Mz_vs_5nm_e_nm": -0.20111338947059676,
+      "delta_phi_total_mV": 111.10197674907207,
+      "delta_phi_block_sd_mV": 230.78264326589806,
+      "delta_phi_direct_probe_mV": 2474.404612025482,
+      "delta_phi_environment_mV": -2363.30263527641,
+      "block_delta_phi_mV": [
+        289.7882701929785,
+        -154.21477255423866,
+        106.7946321915308,
+        383.7887106621183,
+        -79.58127141922382
+      ]
+    },
+    {
+      "branch": "probe_1p0nm",
+      "target_nm": 1.0,
+      "mean_height_nm": 1.0119849779818317,
+      "height_sd_nm": 0.07232985048335451,
+      "mean_solution_Mz_e_nm": 0.26335274795812846,
+      "delta_Mz_vs_5nm_e_nm": -0.04961830292019026,
+      "delta_phi_total_mV": 27.41086285641544,
+      "delta_phi_block_sd_mV": 171.22617916433282,
+      "delta_phi_direct_probe_mV": 2202.5975861713655,
+      "delta_phi_environment_mV": -2175.18672331495,
+      "block_delta_phi_mV": [
+        -133.07782540974304,
+        -137.76027256965943,
+        272.3832820019449,
+        59.47874613819129,
+        84.05481853465143
+      ]
+    },
+    {
+      "branch": "probe_1p5nm",
+      "target_nm": 1.5,
+      "mean_height_nm": 1.491278992135926,
+      "height_sd_nm": 0.06307326143433085,
+      "mean_solution_Mz_e_nm": 0.32370789265186506,
+      "delta_Mz_vs_5nm_e_nm": 0.010736841773546335,
+      "delta_phi_total_mV": -5.931401923179327,
+      "delta_phi_block_sd_mV": 259.62824529601727,
+      "delta_phi_direct_probe_mV": 1937.8190323580552,
+      "delta_phi_environment_mV": -1943.7504342812344,
+      "block_delta_phi_mV": [
+        -207.40520297915702,
+        200.68987231709738,
+        348.058826459158,
+        -172.35071606921008,
+        -188.57609929098604
+      ]
+    },
+    {
+      "branch": "probe_2p0nm",
+      "target_nm": 2.0,
+      "mean_height_nm": 2.018402427139849,
+      "height_sd_nm": 0.07126860569373267,
+      "mean_solution_Mz_e_nm": 0.24814361390449607,
+      "delta_Mz_vs_5nm_e_nm": -0.06482743697382265,
+      "delta_phi_total_mV": 35.812913373530485,
+      "delta_phi_block_sd_mV": 204.3547727064365,
+      "delta_phi_direct_probe_mV": 1646.6178558781614,
+      "delta_phi_environment_mV": -1610.8049425046308,
+      "block_delta_phi_mV": [
+        151.02113875559684,
+        -175.98474147847864,
+        245.26628190802745,
+        146.81275385182627,
+        -193.811277438423
+      ]
+    },
+    {
+      "branch": "probe_3p0nm",
+      "target_nm": 3.0,
+      "mean_height_nm": 3.0134866931060755,
+      "height_sd_nm": 0.07043005100876606,
+      "mean_solution_Mz_e_nm": 0.11223680081665102,
+      "delta_Mz_vs_5nm_e_nm": -0.2007342500616677,
+      "delta_phi_total_mV": 110.89252705551175,
+      "delta_phi_block_sd_mV": 134.6099429573456,
+      "delta_phi_direct_probe_mV": 1096.8989670872652,
+      "delta_phi_environment_mV": -986.0064400317534,
+      "block_delta_phi_mV": [
+        192.90285777701135,
+        249.84347163921473,
+        127.28859594160059,
+        82.4400025193838,
+        -102.11280913572668
+      ]
+    },
+    {
+      "branch": "bulk_reference",
+      "target_nm": 5.0,
+      "mean_height_nm": 4.999059548177342,
+      "height_sd_nm": 0.06854019055833789,
+      "mean_solution_Mz_e_nm": 0.3129710508783187,
+      "delta_Mz_vs_5nm_e_nm": 0.0,
+      "delta_phi_total_mV": -0.0,
+      "delta_phi_block_sd_mV": 0.0,
+      "delta_phi_direct_probe_mV": -0.0,
+      "delta_phi_environment_mV": 0.0,
+      "block_delta_phi_mV": [
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ]
+    }
+  ],
+  "fit": {
+    "model": "A*(exp(-h/lambda)-exp(-href/lambda))",
+    "lambda_eff_nm": 5.0,
+    "amplitude_mV": 133.6514556435492,
+    "r2": -0.20160441666494688,
+    "assessment": "WEAK / NOT YET A DEFENSIBLE SINGLE-EXPONENTIAL SCREENING LENGTH"
+  },
+  "block_lambda_eff_nm": [
+    0.1,
+    0.396,
+    5.0,
+    0.194,
+    5.0
+  ],
+  "block_lambda_mean_nm": 2.1380000000000003,
+  "block_lambda_sd_nm": 2.6148246595135207,
+  "independent_bulk_debye_nm": 0.705505
+}

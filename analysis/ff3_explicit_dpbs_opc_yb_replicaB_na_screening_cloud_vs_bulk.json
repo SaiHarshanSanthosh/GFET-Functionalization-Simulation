@@ -1,0 +1,281 @@
+{
+  "reference_branch": "bulk_reference",
+  "definition": "Delta Q = environment charge for near-graphene probe minus environment charge for 5 nm bulk-reference probe.",
+  "interpretation": {
+    "positive": "less negative local screening than bulk",
+    "negative": "more negative local screening than bulk",
+    "zero": "bulk-like screening"
+  },
+  "report": [
+    {
+      "branch": "probe_0p5nm",
+      "target_nm": 0.5,
+      "radius_nm": 0.3,
+      "delta_environment_charge_e": 0.006724178999999886,
+      "approx_combined_block_sd_e": 0.24642484115512095,
+      "delta_water_charge_e": 0.006724178999999886,
+      "delta_ion_charge_e": 0.0
+    },
+    {
+      "branch": "probe_0p5nm",
+      "target_nm": 0.5,
+      "radius_nm": 0.5,
+      "delta_environment_charge_e": -0.25700099099999996,
+      "approx_combined_block_sd_e": 0.5755911687747851,
+      "delta_water_charge_e": -0.33620891099999994,
+      "delta_ion_charge_e": 0.079207921
+    },
+    {
+      "branch": "probe_0p5nm",
+      "target_nm": 0.5,
+      "radius_nm": 0.7,
+      "delta_environment_charge_e": 0.4623279010000001,
+      "approx_combined_block_sd_e": 0.790239591115054,
+      "delta_water_charge_e": 0.1950011679999999,
+      "delta_ion_charge_e": 0.267326733
+    },
+    {
+      "branch": "probe_0p5nm",
+      "target_nm": 0.5,
+      "radius_nm": 1.0,
+      "delta_environment_charge_e": -0.38316976299999994,
+      "approx_combined_block_sd_e": 0.6557965083063144,
+      "delta_water_charge_e": -1.0960410489999999,
+      "delta_ion_charge_e": 0.712871287
+    },
+    {
+      "branch": "probe_0p5nm",
+      "target_nm": 0.5,
+      "radius_nm": 1.5,
+      "delta_environment_charge_e": -0.689463763,
+      "approx_combined_block_sd_e": 1.7544227397319654,
+      "delta_water_charge_e": -1.815528119,
+      "delta_ion_charge_e": 1.0891089109999998
+    },
+    {
+      "branch": "probe_0p5nm",
+      "target_nm": 0.5,
+      "radius_nm": 2.0,
+      "delta_environment_charge_e": 0.2064413919999999,
+      "approx_combined_block_sd_e": 2.3595186796108476,
+      "delta_water_charge_e": -0.410174871,
+      "delta_ion_charge_e": 0.584158416
+    },
+    {
+      "branch": "probe_1p0nm",
+      "target_nm": 1.0,
+      "radius_nm": 0.3,
+      "delta_environment_charge_e": -0.25403655400000025,
+      "approx_combined_block_sd_e": 0.2021597667870788,
+      "delta_water_charge_e": -0.17482863300000018,
+      "delta_ion_charge_e": -0.079207921
+    },
+    {
+      "branch": "probe_1p0nm",
+      "target_nm": 1.0,
+      "radius_nm": 0.5,
+      "delta_environment_charge_e": -0.4987008519999998,
+      "approx_combined_block_sd_e": 0.48588027496640324,
+      "delta_water_charge_e": -0.5581067920000002,
+      "delta_ion_charge_e": 0.05940594
+    },
+    {
+      "branch": "probe_1p0nm",
+      "target_nm": 1.0,
+      "radius_nm": 0.7,
+      "delta_environment_charge_e": 0.22041566300000004,
+      "approx_combined_block_sd_e": 0.8061813940144206,
+      "delta_water_charge_e": 0.14120774199999997,
+      "delta_ion_charge_e": 0.079207921
+    },
+    {
+      "branch": "probe_1p0nm",
+      "target_nm": 1.0,
+      "radius_nm": 1.0,
+      "delta_environment_charge_e": 0.058294277000000005,
+      "approx_combined_block_sd_e": 0.5537097014522441,
+      "delta_water_charge_e": -0.060517604,
+      "delta_ion_charge_e": 0.11881188100000001
+    },
+    {
+      "branch": "probe_1p0nm",
+      "target_nm": 1.0,
+      "radius_nm": 1.5,
+      "delta_environment_charge_e": -0.7958743699999999,
+      "approx_combined_block_sd_e": 1.90996191910786,
+      "delta_water_charge_e": -1.143110297,
+      "delta_ion_charge_e": 0.336633664
+    },
+    {
+      "branch": "probe_1p0nm",
+      "target_nm": 1.0,
+      "radius_nm": 2.0,
+      "delta_environment_charge_e": 0.6704496259999999,
+      "approx_combined_block_sd_e": 1.9450804558341146,
+      "delta_water_charge_e": 0.127759387,
+      "delta_ion_charge_e": 0.564356436
+    },
+    {
+      "branch": "probe_1p5nm",
+      "target_nm": 1.5,
+      "radius_nm": 0.3,
+      "delta_environment_charge_e": -0.16138027700000013,
+      "approx_combined_block_sd_e": 0.42784155401703045,
+      "delta_water_charge_e": -0.16138027700000013,
+      "delta_ion_charge_e": 0.0
+    },
+    {
+      "branch": "probe_1p5nm",
+      "target_nm": 1.5,
+      "radius_nm": 0.5,
+      "delta_environment_charge_e": -0.10499297099999971,
+      "approx_combined_block_sd_e": 0.5525055827605595,
+      "delta_water_charge_e": 0.033620890999999986,
+      "delta_ion_charge_e": -0.138613861
+    },
+    {
+      "branch": "probe_1p5nm",
+      "target_nm": 1.5,
+      "radius_nm": 0.7,
+      "delta_environment_charge_e": -0.04468774299999989,
+      "approx_combined_block_sd_e": 0.792067673832088,
+      "delta_water_charge_e": 0.26224294999999986,
+      "delta_ion_charge_e": -0.306930693
+    },
+    {
+      "branch": "probe_1p5nm",
+      "target_nm": 1.5,
+      "radius_nm": 1.0,
+      "delta_environment_charge_e": -0.11346594099999996,
+      "approx_combined_block_sd_e": 0.7050621903773199,
+      "delta_water_charge_e": 0.470692476,
+      "delta_ion_charge_e": -0.584158416
+    },
+    {
+      "branch": "probe_1p5nm",
+      "target_nm": 1.5,
+      "radius_nm": 1.5,
+      "delta_environment_charge_e": 0.01184887400000001,
+      "approx_combined_block_sd_e": 1.5070329984373954,
+      "delta_water_charge_e": 0.9481091289999999,
+      "delta_ion_charge_e": -0.930693069
+    },
+    {
+      "branch": "probe_1p5nm",
+      "target_nm": 1.5,
+      "radius_nm": 2.0,
+      "delta_environment_charge_e": -0.5751505130000001,
+      "approx_combined_block_sd_e": 1.6452541212869194,
+      "delta_water_charge_e": 1.694492911,
+      "delta_ion_charge_e": -2.2574257419999997
+    },
+    {
+      "branch": "probe_2p0nm",
+      "target_nm": 2.0,
+      "radius_nm": 0.3,
+      "delta_environment_charge_e": -0.302217465,
+      "approx_combined_block_sd_e": 0.24855372559853378,
+      "delta_water_charge_e": -0.282415485,
+      "delta_ion_charge_e": -0.01980198
+    },
+    {
+      "branch": "probe_2p0nm",
+      "target_nm": 2.0,
+      "radius_nm": 0.5,
+      "delta_environment_charge_e": -0.5700729309999999,
+      "approx_combined_block_sd_e": 0.6146143360469284,
+      "delta_water_charge_e": -0.49086501000000027,
+      "delta_ion_charge_e": -0.079207921
+    },
+    {
+      "branch": "probe_2p0nm",
+      "target_nm": 2.0,
+      "radius_nm": 0.7,
+      "delta_environment_charge_e": 0.09879752499999994,
+      "approx_combined_block_sd_e": 0.8238954323944717,
+      "delta_water_charge_e": 0.16810445499999993,
+      "delta_ion_charge_e": -0.069306931
+    },
+    {
+      "branch": "probe_2p0nm",
+      "target_nm": 2.0,
+      "radius_nm": 1.0,
+      "delta_environment_charge_e": 0.17599449500000008,
+      "approx_combined_block_sd_e": 1.5528212825118046,
+      "delta_water_charge_e": -0.12103520799999995,
+      "delta_ion_charge_e": 0.297029703
+    },
+    {
+      "branch": "probe_2p0nm",
+      "target_nm": 2.0,
+      "radius_nm": 1.5,
+      "delta_environment_charge_e": -0.662354237,
+      "approx_combined_block_sd_e": 2.2681471553450474,
+      "delta_water_charge_e": -1.741562158,
+      "delta_ion_charge_e": 1.079207921
+    },
+    {
+      "branch": "probe_2p0nm",
+      "target_nm": 2.0,
+      "radius_nm": 2.0,
+      "delta_environment_charge_e": -0.4373451210000001,
+      "approx_combined_block_sd_e": 2.767360606038054,
+      "delta_water_charge_e": -1.344835643,
+      "delta_ion_charge_e": 0.9009900989999999
+    },
+    {
+      "branch": "probe_3p0nm",
+      "target_nm": 3.0,
+      "radius_nm": 0.3,
+      "delta_environment_charge_e": -0.1658811280000001,
+      "approx_combined_block_sd_e": 0.2754482828032091,
+      "delta_water_charge_e": -0.047069247000000036,
+      "delta_ion_charge_e": -0.118811881
+    },
+    {
+      "branch": "probe_3p0nm",
+      "target_nm": 3.0,
+      "radius_nm": 0.5,
+      "delta_environment_charge_e": -0.21035649499999964,
+      "approx_combined_block_sd_e": 0.5283091310882415,
+      "delta_water_charge_e": 0.047069247000000036,
+      "delta_ion_charge_e": -0.257425743
+    },
+    {
+      "branch": "probe_3p0nm",
+      "target_nm": 3.0,
+      "radius_nm": 0.7,
+      "delta_environment_charge_e": 0.5488927130000001,
+      "approx_combined_block_sd_e": 0.5983678659935867,
+      "delta_water_charge_e": 0.9548333069999999,
+      "delta_ion_charge_e": -0.405940594
+    },
+    {
+      "branch": "probe_3p0nm",
+      "target_nm": 3.0,
+      "radius_nm": 1.0,
+      "delta_environment_charge_e": 0.158890376,
+      "approx_combined_block_sd_e": 0.7871050634364074,
+      "delta_water_charge_e": 0.564830971,
+      "delta_ion_charge_e": -0.405940594
+    },
+    {
+      "branch": "probe_3p0nm",
+      "target_nm": 3.0,
+      "radius_nm": 1.5,
+      "delta_environment_charge_e": -0.6697741580000001,
+      "approx_combined_block_sd_e": 2.1059352936802482,
+      "delta_water_charge_e": 0.369829802,
+      "delta_ion_charge_e": -1.03960396
+    },
+    {
+      "branch": "probe_3p0nm",
+      "target_nm": 3.0,
+      "radius_nm": 2.0,
+      "delta_environment_charge_e": 0.6078197029999999,
+      "approx_combined_block_sd_e": 1.907807300807918,
+      "delta_water_charge_e": 1.647423664,
+      "delta_ion_charge_e": -1.03960396
+    }
+  ]
+}

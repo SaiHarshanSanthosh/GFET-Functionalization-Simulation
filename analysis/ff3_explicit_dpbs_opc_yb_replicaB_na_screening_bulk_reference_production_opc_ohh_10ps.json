@@ -1,0 +1,57 @@
+{
+  "format": "NumPy .npy 4D matrix",
+  "dtype": "float32",
+  "units": {
+    "time": "ps",
+    "coordinates": "nm"
+  },
+  "branch": "bulk_reference",
+  "probe_particle_index": 151671,
+  "target_height_above_graphene_mean_nm": 5.0,
+  "frame_interval_ps": 10.0,
+  "n_frames": 101,
+  "n_waters": 36949,
+  "stored_sites_per_water": 3,
+  "stored_site_order": [
+    "O",
+    "H1",
+    "H2"
+  ],
+  "full_opc_site_order": [
+    "O",
+    "H1",
+    "H2",
+    "M"
+  ],
+  "matrix_shape": [
+    101,
+    36949,
+    3,
+    3
+  ],
+  "m_site_reconstruction": {
+    "equation": "rM = wO*rO + wH1*rH1 + wH2*rH2",
+    "wO": 0.7045587810585758,
+    "wH1": 0.1477206094707121,
+    "wH2": 0.1477206094707121
+  },
+  "box_vectors_nm": [
+    [
+      6.15,
+      0.0,
+      0.0
+    ],
+    [
+      -3.075,
+      5.326056233274298,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      41.907941
+    ]
+  ],
+  "trajectory_file": "C:\\Users\\SaiHa\\graphene-functionalization-md\\analysis\\ff3_explicit_dpbs_opc_yb_replicaB_na_screening_bulk_reference_production_opc_ohh_10ps_float32.npy",
+  "companion_compact_trajectory": "C:\\Users\\SaiHa\\graphene-functionalization-md\\analysis\\ff3_explicit_dpbs_opc_yb_replicaB_na_screening_bulk_reference_production_compact_1ps_float32.npy"
+}

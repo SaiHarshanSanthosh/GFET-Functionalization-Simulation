@@ -1,0 +1,338 @@
+{
+  "description": "Graphene-referenced planar electrolyte response to a restrained +1e Na probe.",
+  "reference_branch": "bulk_reference",
+  "surface_reference": "framewise maximum graphene carbon z",
+  "area_nm2": 32.75524583463694,
+  "bin_width_nm": 0.05,
+  "probe_charge_e": 1.0,
+  "environment_definition": "water + all non-probe ions + ligand",
+  "metrics": [
+    {
+      "branch": "probe_0p5nm",
+      "target_height_nm": 0.5,
+      "mean_probe_height_above_graphene_max_nm": 0.4781071703032692,
+      "slab_start_nm": 0.0,
+      "slab_end_nm": 1.0,
+      "delta_sigma_environment_e_per_nm2": 0.01915791204803973,
+      "delta_sigma_environment_block_sd_e_per_nm2": 0.0762146109192647,
+      "delta_sigma_probe_e_per_nm2": 0.030529460992246713,
+      "delta_sigma_net_e_per_nm2": 0.04968737304028644,
+      "delta_sigma_net_block_sd_e_per_nm2": 0.0762146109192647,
+      "delta_sigma_net_C_per_m2": 0.007960794808998847,
+      "net_signal_to_block_sd": 0.651940257136798,
+      "environment_block_values_e_per_nm2": [
+        0.09437121603537013,
+        0.04901852692865875,
+        0.07420916980050439,
+        -0.05208750404784482,
+        -0.07348251367585633
+      ],
+      "net_block_values_e_per_nm2": [
+        0.12490067702761684,
+        0.07954798792090546,
+        0.10473863079275111,
+        -0.02155804305559812,
+        -0.04295305268360961
+      ]
+    },
+    {
+      "branch": "probe_0p5nm",
+      "target_height_nm": 0.5,
+      "mean_probe_height_above_graphene_max_nm": 0.4781071703032692,
+      "slab_start_nm": 0.0,
+      "slab_end_nm": 2.0,
+      "delta_sigma_environment_e_per_nm2": -0.049081039808663594,
+      "delta_sigma_environment_block_sd_e_per_nm2": 0.041600938160100825,
+      "delta_sigma_probe_e_per_nm2": 0.030529460992246713,
+      "delta_sigma_net_e_per_nm2": -0.018551578816416888,
+      "delta_sigma_net_block_sd_e_per_nm2": 0.04160093816010083,
+      "delta_sigma_net_C_per_m2": -0.0029722906103472513,
+      "net_signal_to_block_sd": 0.44594135701991394,
+      "environment_block_values_e_per_nm2": [
+        0.006794503090316418,
+        -0.07282969915851675,
+        -0.018717585057830066,
+        -0.07210304303386897,
+        -0.09134315202836761
+      ],
+      "net_block_values_e_per_nm2": [
+        0.03732396408256314,
+        -0.042300238166270036,
+        0.01181187593441665,
+        -0.04157358204162224,
+        -0.0608136910361209
+      ]
+    },
+    {
+      "branch": "probe_1p0nm",
+      "target_height_nm": 1.0,
+      "mean_probe_height_above_graphene_max_nm": 0.9703384384070293,
+      "slab_start_nm": 0.0,
+      "slab_end_nm": 1.0,
+      "delta_sigma_environment_e_per_nm2": 0.004247948397696352,
+      "delta_sigma_environment_block_sd_e_per_nm2": 0.03512636556986765,
+      "delta_sigma_probe_e_per_nm2": 0.01904312913377765,
+      "delta_sigma_net_e_per_nm2": 0.023291077531474014,
+      "delta_sigma_net_block_sd_e_per_nm2": 0.03524588366297099,
+      "delta_sigma_net_C_per_m2": 0.0037316420201610064,
+      "net_signal_to_block_sd": 0.6608169553695546,
+      "environment_block_values_e_per_nm2": [
+        -0.004501353863297023,
+        0.04143493554747457,
+        0.007746624808770989,
+        0.027019476650185427,
+        -0.05002247604160253
+      ],
+      "net_block_values_e_per_nm2": [
+        0.01875918784508142,
+        0.05669966604359792,
+        0.026064301404119018,
+        0.048390099344758124,
+        -0.03323127249586683
+      ]
+    },
+    {
+      "branch": "probe_1p0nm",
+      "target_height_nm": 1.0,
+      "mean_probe_height_above_graphene_max_nm": 0.9703384384070293,
+      "slab_start_nm": 0.0,
+      "slab_end_nm": 2.0,
+      "delta_sigma_environment_e_per_nm2": -0.00985066611095023,
+      "delta_sigma_environment_block_sd_e_per_nm2": 0.01634002888811422,
+      "delta_sigma_probe_e_per_nm2": 0.030529460992246713,
+      "delta_sigma_net_e_per_nm2": 0.020678794881296484,
+      "delta_sigma_net_block_sd_e_per_nm2": 0.016340028888114217,
+      "delta_sigma_net_C_per_m2": 0.003313108197809203,
+      "net_signal_to_block_sd": 1.2655298850994259,
+      "environment_block_values_e_per_nm2": [
+        -0.01983210649949082,
+        0.004138411925962155,
+        0.005860661250076874,
+        -0.03252132819817279,
+        -0.006399897013699535
+      ],
+      "net_block_values_e_per_nm2": [
+        0.010697354492755905,
+        0.03466787291820887,
+        0.03639012224232359,
+        -0.0019918672059260757,
+        0.024129563978547184
+      ]
+    },
+    {
+      "branch": "probe_1p5nm",
+      "target_height_nm": 1.5,
+      "mean_probe_height_above_graphene_max_nm": 1.4498227657658038,
+      "slab_start_nm": 0.0,
+      "slab_end_nm": 1.0,
+      "delta_sigma_environment_e_per_nm2": 0.011164608771269218,
+      "delta_sigma_environment_block_sd_e_per_nm2": 0.04970959333896273,
+      "delta_sigma_probe_e_per_nm2": 0.0,
+      "delta_sigma_net_e_per_nm2": 0.011164608771269218,
+      "delta_sigma_net_block_sd_e_per_nm2": 0.04970959333896273,
+      "delta_sigma_net_C_per_m2": 0.0017887675301078991,
+      "net_signal_to_block_sd": 0.22459666276365048,
+      "environment_block_values_e_per_nm2": [
+        0.07575203048326508,
+        -0.05025099516302049,
+        0.0022691601942221563,
+        0.04291263473020924,
+        -0.0180891574739297
+      ],
+      "net_block_values_e_per_nm2": [
+        0.07575203048326508,
+        -0.05025099516302049,
+        0.0022691601942221563,
+        0.04291263473020924,
+        -0.0180891574739297
+      ]
+    },
+    {
+      "branch": "probe_1p5nm",
+      "target_height_nm": 1.5,
+      "mean_probe_height_above_graphene_max_nm": 1.4498227657658038,
+      "slab_start_nm": 0.0,
+      "slab_end_nm": 2.0,
+      "delta_sigma_environment_e_per_nm2": -0.026292825422343312,
+      "delta_sigma_environment_block_sd_e_per_nm2": 0.061246478245209006,
+      "delta_sigma_probe_e_per_nm2": 0.030529460992246713,
+      "delta_sigma_net_e_per_nm2": 0.004236635569903391,
+      "delta_sigma_net_block_sd_e_per_nm2": 0.061246478245209,
+      "delta_sigma_net_C_per_m2": 0.0006787838516872486,
+      "net_signal_to_block_sd": 0.0691735376676095,
+      "environment_block_values_e_per_nm2": [
+        -0.02172912288608711,
+        -0.10632223362271767,
+        0.06496045887555998,
+        -0.026439822933162216,
+        -0.042161591672122405
+      ],
+      "net_block_values_e_per_nm2": [
+        0.008800338106159612,
+        -0.07579277263047095,
+        0.0954899198678067,
+        0.004089638059084496,
+        -0.011632130679875691
+      ]
+    },
+    {
+      "branch": "probe_2p0nm",
+      "target_height_nm": 2.0,
+      "mean_probe_height_above_graphene_max_nm": 1.9763605116617562,
+      "slab_start_nm": 0.0,
+      "slab_end_nm": 1.0,
+      "delta_sigma_environment_e_per_nm2": 0.00306949004436166,
+      "delta_sigma_environment_block_sd_e_per_nm2": 0.032585256598349974,
+      "delta_sigma_probe_e_per_nm2": 0.0,
+      "delta_sigma_net_e_per_nm2": 0.00306949004436166,
+      "delta_sigma_net_block_sd_e_per_nm2": 0.032585256598349974,
+      "delta_sigma_net_C_per_m2": 0.0004917865227371874,
+      "net_signal_to_block_sd": 0.09419873785855319,
+      "environment_block_values_e_per_nm2": [
+        0.04275027629445827,
+        0.007509749773875531,
+        0.023696912669149313,
+        -0.029402896405116504,
+        -0.031190631423063143
+      ],
+      "net_block_values_e_per_nm2": [
+        0.04275027629445827,
+        0.007509749773875531,
+        0.023696912669149313,
+        -0.029402896405116504,
+        -0.031190631423063143
+      ]
+    },
+    {
+      "branch": "probe_2p0nm",
+      "target_height_nm": 2.0,
+      "mean_probe_height_above_graphene_max_nm": 1.9763605116617562,
+      "slab_start_nm": 0.0,
+      "slab_end_nm": 2.0,
+      "delta_sigma_environment_e_per_nm2": -0.08747274442662968,
+      "delta_sigma_environment_block_sd_e_per_nm2": 0.063824304723766,
+      "delta_sigma_probe_e_per_nm2": 0.01964767291580234,
+      "delta_sigma_net_e_per_nm2": -0.06782507151082731,
+      "delta_sigma_net_block_sd_e_per_nm2": 0.06681262673999204,
+      "delta_sigma_net_C_per_m2": -0.010866774477402658,
+      "net_signal_to_block_sd": 1.0151534944850364,
+      "environment_block_values_e_per_nm2": [
+        -0.10771204968139116,
+        -0.12083592106075433,
+        0.023696912669149323,
+        -0.13592090630233697,
+        -0.09557979249507707
+      ],
+      "net_block_values_e_per_nm2": [
+        -0.09172042725688095,
+        -0.09946529836618163,
+        0.04964695451255903,
+        -0.11607675665737656,
+        -0.08031506199895372
+      ]
+    },
+    {
+      "branch": "probe_3p0nm",
+      "target_height_nm": 3.0,
+      "mean_probe_height_above_graphene_max_nm": 2.9717654756980365,
+      "slab_start_nm": 0.0,
+      "slab_end_nm": 1.0,
+      "delta_sigma_environment_e_per_nm2": 0.010519642773802903,
+      "delta_sigma_environment_block_sd_e_per_nm2": 0.11126438375084027,
+      "delta_sigma_probe_e_per_nm2": 0.0,
+      "delta_sigma_net_e_per_nm2": 0.010519642773802903,
+      "delta_sigma_net_block_sd_e_per_nm2": 0.11126438375084027,
+      "delta_sigma_net_C_per_m2": 0.0016854325850213956,
+      "net_signal_to_block_sd": 0.09454636262903364,
+      "environment_block_values_e_per_nm2": [
+        0.10588471024747713,
+        0.030088453769371627,
+        0.021941920498118644,
+        0.0700951448079811,
+        -0.18018026882761767
+      ],
+      "net_block_values_e_per_nm2": [
+        0.10588471024747713,
+        0.030088453769371627,
+        0.021941920498118644,
+        0.0700951448079811,
+        -0.18018026882761767
+      ]
+    },
+    {
+      "branch": "probe_3p0nm",
+      "target_height_nm": 3.0,
+      "mean_probe_height_above_graphene_max_nm": 2.9717654756980365,
+      "slab_start_nm": 0.0,
+      "slab_end_nm": 2.0,
+      "delta_sigma_environment_e_per_nm2": -0.0569205229655311,
+      "delta_sigma_environment_block_sd_e_per_nm2": 0.03383399329743184,
+      "delta_sigma_probe_e_per_nm2": 0.0,
+      "delta_sigma_net_e_per_nm2": -0.0569205229655311,
+      "delta_sigma_net_block_sd_e_per_nm2": 0.03383399329743184,
+      "delta_sigma_net_C_per_m2": -0.00911967318904343,
+      "net_signal_to_block_sd": 1.6823471727131787,
+      "environment_block_values_e_per_nm2": [
+        -0.017911864462000406,
+        -0.06625841280375379,
+        -0.057181091219873074,
+        -0.037394071355267365,
+        -0.10780760791193741
+      ],
+      "net_block_values_e_per_nm2": [
+        -0.017911864462000406,
+        -0.06625841280375379,
+        -0.057181091219873074,
+        -0.037394071355267365,
+        -0.10780760791193741
+      ]
+    }
+  ],
+  "component_summary_0to1nm": [
+    {
+      "branch": "probe_0p5nm",
+      "target_height_nm": 0.5,
+      "water_delta_sigma_e_per_nm2": -0.004721567341935415,
+      "ion_delta_sigma_e_per_nm2": 0.02387947938997515,
+      "ligand_delta_sigma_e_per_nm2": -6.984450497620645e-19,
+      "probe_delta_sigma_e_per_nm2": 0.030529460992246713,
+      "net_delta_sigma_e_per_nm2": 0.04968737304028645
+    },
+    {
+      "branch": "probe_1p0nm",
+      "target_height_nm": 1.0,
+      "water_delta_sigma_e_per_nm2": 0.006363851634782728,
+      "ion_delta_sigma_e_per_nm2": -0.002115903237086406,
+      "ligand_delta_sigma_e_per_nm2": 2.5253088285691463e-18,
+      "probe_delta_sigma_e_per_nm2": 0.01904312913377765,
+      "net_delta_sigma_e_per_nm2": 0.023291077531473976
+    },
+    {
+      "branch": "probe_1p5nm",
+      "target_height_nm": 1.5,
+      "water_delta_sigma_e_per_nm2": 0.015396415245442007,
+      "ion_delta_sigma_e_per_nm2": -0.004231806474172812,
+      "ligand_delta_sigma_e_per_nm2": 1.973684059537846e-18,
+      "probe_delta_sigma_e_per_nm2": 0.0,
+      "net_delta_sigma_e_per_nm2": 0.011164608771269196
+    },
+    {
+      "branch": "probe_2p0nm",
+      "target_height_nm": 2.0,
+      "water_delta_sigma_e_per_nm2": 0.029971688344460255,
+      "ion_delta_sigma_e_per_nm2": -0.026902198300098587,
+      "ligand_delta_sigma_e_per_nm2": 2.5085293679142016e-18,
+      "probe_delta_sigma_e_per_nm2": 0.0,
+      "net_delta_sigma_e_per_nm2": 0.003069490044361671
+    },
+    {
+      "branch": "probe_3p0nm",
+      "target_height_nm": 3.0,
+      "water_delta_sigma_e_per_nm2": 0.018680983831136144,
+      "ion_delta_sigma_e_per_nm2": -0.00816134105733328,
+      "ligand_delta_sigma_e_per_nm2": 3.7124556699064694e-19,
+      "probe_delta_sigma_e_per_nm2": 0.0,
+      "net_delta_sigma_e_per_nm2": 0.010519642773802865
+    }
+  ]
+}

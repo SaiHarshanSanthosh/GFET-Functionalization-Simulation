@@ -1,0 +1,85 @@
+{
+  "surface_reference": "framewise mean graphene carbon z plane",
+  "bin_width_nm": 0.01,
+  "n_frames": 1001,
+  "features": {
+    "water_peak1_nm": 0.335,
+    "water_first_minimum_nm": 0.495,
+    "water_peak2_nm": 0.615,
+    "na_inner_feature_nm": 0.505,
+    "na_outer_feature_nm": 0.765,
+    "cl_peak_nm": 0.6950000000000001
+  },
+  "feature_block_sd_nm": {
+    "water_peak1_nm": 0.0,
+    "water_first_minimum_nm": 0.0,
+    "water_peak2_nm": 0.005477225575051666,
+    "na_inner_feature_nm": 0.041593268686170824,
+    "na_outer_feature_nm": 0.023874672772626667,
+    "cl_peak_nm": 0.021679483388678773
+  },
+  "literature_comparison": [
+    {
+      "metric": "Water O peak 1",
+      "our_position_nm": 0.335,
+      "our_block_sd_nm": 0.0,
+      "literature_position_nm": 0.33,
+      "difference_nm": 0.0050000000000000044,
+      "literature_note": "2023 additive"
+    },
+    {
+      "metric": "Water first minimum",
+      "our_position_nm": 0.495,
+      "our_block_sd_nm": 0.0,
+      "literature_position_nm": 0.46,
+      "difference_nm": 0.034999999999999976,
+      "literature_note": "2026 ~0.45-0.47"
+    },
+    {
+      "metric": "Water O peak 2",
+      "our_position_nm": 0.615,
+      "our_block_sd_nm": 0.005477225575051666,
+      "literature_position_nm": 0.61,
+      "difference_nm": 0.0050000000000000044,
+      "literature_note": "2023 additive"
+    },
+    {
+      "metric": "Na+ inner feature",
+      "our_position_nm": 0.505,
+      "our_block_sd_nm": 0.041593268686170824,
+      "literature_position_nm": 0.48,
+      "difference_nm": 0.025000000000000022,
+      "literature_note": "2023 additive"
+    },
+    {
+      "metric": "Na+ outer feature",
+      "our_position_nm": 0.765,
+      "our_block_sd_nm": 0.023874672772626667,
+      "literature_position_nm": 0.775,
+      "difference_nm": -0.010000000000000009,
+      "literature_note": "2023 PMF minimum"
+    },
+    {
+      "metric": "Cl- dominant peak",
+      "our_position_nm": 0.6950000000000001,
+      "our_block_sd_nm": 0.021679483388678773,
+      "literature_position_nm": 0.64,
+      "difference_nm": 0.05500000000000005,
+      "literature_note": "2023 additive"
+    }
+  ],
+  "bulk_concentrations_M": {
+    "water": 54.45021243672661,
+    "Na": 0.09971944915868217,
+    "Cl": 0.13861459235516155
+  },
+  "interfacial_peak_enrichment": {
+    "Na_outer": 2.3463687150837984,
+    "Cl": 1.6397515527950313
+  },
+  "literature_context": {
+    "2023_Nanoscale_Advances": "1 M simple salts; additive and Drude polarizable FFs.",
+    "2026_JACS": "Graphene-NaCl interface; ML-MD / VSFG comparison.",
+    "warning": "Compare peak positions and layering qualitatively; our DPBS concentration and force field differ."
+  }
+}

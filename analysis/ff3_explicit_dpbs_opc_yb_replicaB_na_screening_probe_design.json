@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "purpose": "Direct molecular screening experiment using one existing Na+ ion as a restrained +1e probe. No particles or net charge are added.",
+  "source_state": "C:\\Users\\SaiHa\\graphene-functionalization-md\\parameters\\combined\\ff3_explicit_dpbs_opc_yb_replicaB_production_300K_10ns_positions_nm.npy",
+  "selection_target_gap_from_graphene_max_nm": 2.0,
+  "graphene_final_frame_nm": {
+    "mean_z": 0.4997677147123197,
+    "min_z": 0.4568430620275432,
+    "max_z": 0.5364284238915928
+  },
+  "probe": {
+    "na_local_index": 55,
+    "system_particle_index": 151671,
+    "initial_xyz_nm": [
+      4.023297141914881,
+      -0.5451923725951788,
+      2.5521088321910597
+    ],
+    "initial_gap_from_graphene_max_nm": 2.015680408299467,
+    "initial_gap_from_graphene_mean_nm": 2.05234111747874
+  },
+  "restraint_definition": "Harmonic restraint on (z_probe - z_graphene_centroid - target_height), implemented with CustomCentroidBondForce.",
+  "targets_nm": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    5.0
+  ],
+  "protocol": {
+    "pull_ps": 500.0,
+    "settle_ps": 500.0,
+    "initial_production_ps": 1000.0,
+    "water_save_interval_ps": 10.0,
+    "compact_save_interval_ps": 1.0,
+    "note": "Initial pilot only. Extend production only if block convergence requires it."
+  },
+  "branches": [
+    {
+      "name": "probe_0p5nm",
+      "target_height_above_graphene_mean_nm": 0.5,
+      "probe_particle_index": 151671,
+      "probe_na_local_index": 55,
+      "pull_time_ps": 500.0,
+      "settle_time_ps": 500.0,
+      "production_time_ps": 1000.0,
+      "restraint_k_kJ_mol_nm2": 500.0
+    },
+    {
+      "name": "probe_1p0nm",
+      "target_height_above_graphene_mean_nm": 1.0,
+      "probe_particle_index": 151671,
+      "probe_na_local_index": 55,
+      "pull_time_ps": 500.0,
+      "settle_time_ps": 500.0,
+      "production_time_ps": 1000.0,
+      "restraint_k_kJ_mol_nm2": 500.0
+    },
+    {
+      "name": "probe_1p5nm",
+      "target_height_above_graphene_mean_nm": 1.5,
+      "probe_particle_index": 151671,
+      "probe_na_local_index": 55,
+      "pull_time_ps": 500.0,
+      "settle_time_ps": 500.0,
+      "production_time_ps": 1000.0,
+      "restraint_k_kJ_mol_nm2": 500.0
+    },
+    {
+      "name": "probe_2p0nm",
+      "target_height_above_graphene_mean_nm": 2.0,
+      "probe_particle_index": 151671,
+      "probe_na_local_index": 55,
+      "pull_time_ps": 500.0,
+      "settle_time_ps": 500.0,
+      "production_time_ps": 1000.0,
+      "restraint_k_kJ_mol_nm2": 500.0
+    },
+    {
+      "name": "probe_3p0nm",
+      "target_height_above_graphene_mean_nm": 3.0,
+      "probe_particle_index": 151671,
+      "probe_na_local_index": 55,
+      "pull_time_ps": 500.0,
+      "settle_time_ps": 500.0,
+      "production_time_ps": 1000.0,
+      "restraint_k_kJ_mol_nm2": 500.0
+    },
+    {
+      "name": "bulk_reference",
+      "target_height_above_graphene_mean_nm": 5.0,
+      "probe_particle_index": 151671,
+      "probe_na_local_index": 55,
+      "pull_time_ps": 500.0,
+      "settle_time_ps": 500.0,
+      "production_time_ps": 1000.0,
+      "restraint_k_kJ_mol_nm2": 500.0
+    }
+  ]
+}

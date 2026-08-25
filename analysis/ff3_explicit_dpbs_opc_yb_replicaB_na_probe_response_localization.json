@@ -1,0 +1,112 @@
+{
+  "definition": "Localization of absolute graphene-referenced environmental charge redistribution.",
+  "reference_branch": "bulk_reference",
+  "normalization_height_nm": 4.0,
+  "results": [
+    {
+      "branch": "probe_0p5nm",
+      "target_height_nm": 0.5,
+      "redistribution_0to1_e_per_nm2": 0.6261579981154345,
+      "redistribution_0to2_e_per_nm2": 1.3578409018900057,
+      "redistribution_0to4_e_per_nm2": 2.3757112948893773,
+      "redistribution_0to2_block_sd_e_per_nm2": 0.2869291295544932,
+      "fraction_within_1nm": 0.263566536667323,
+      "fraction_within_2nm": 0.5715513096271373,
+      "z50_nm": 1.8250000000000002,
+      "z90_nm": 3.5250000000000004,
+      "water_redistribution_0to2_e_per_nm2": 1.3456466924516555,
+      "ion_redistribution_0to2_e_per_nm2": 0.10367925861723389,
+      "block_0to2_e_per_nm2": [
+        2.524256214947662,
+        2.7028077335536076,
+        3.0219520090323986,
+        2.322345964722168,
+        2.9283503673506845
+      ]
+    },
+    {
+      "branch": "probe_1p0nm",
+      "target_height_nm": 1.0,
+      "redistribution_0to1_e_per_nm2": 0.5359061319083167,
+      "redistribution_0to2_e_per_nm2": 1.4611069395585519,
+      "redistribution_0to4_e_per_nm2": 2.8998918723945524,
+      "redistribution_0to2_block_sd_e_per_nm2": 0.40427619347021604,
+      "fraction_within_1nm": 0.18480210831647265,
+      "fraction_within_2nm": 0.503848765351399,
+      "z50_nm": 1.975,
+      "z90_nm": 3.725,
+      "water_redistribution_0to2_e_per_nm2": 1.4604013074143432,
+      "ion_redistribution_0to2_e_per_nm2": 0.12211784396898684,
+      "block_0to2_e_per_nm2": [
+        2.380118344710762,
+        3.1321693513753113,
+        3.3508389189288526,
+        2.603270514396632,
+        3.097726229377549
+      ]
+    },
+    {
+      "branch": "probe_1p5nm",
+      "target_height_nm": 1.5,
+      "redistribution_0to1_e_per_nm2": 0.39056908297509113,
+      "redistribution_0to2_e_per_nm2": 1.1230391904127064,
+      "redistribution_0to4_e_per_nm2": 2.440783326622716,
+      "redistribution_0to2_block_sd_e_per_nm2": 0.6240792544338452,
+      "fraction_within_1nm": 0.16001792486657024,
+      "fraction_within_2nm": 0.4601142502749897,
+      "z50_nm": 2.125,
+      "z90_nm": 3.575,
+      "water_redistribution_0to2_e_per_nm2": 1.1126476084039592,
+      "ion_redistribution_0to2_e_per_nm2": 0.12634965044315968,
+      "block_0to2_e_per_nm2": [
+        2.696444408173344,
+        4.022006284145021,
+        2.4111539672457676,
+        2.756246154054092,
+        2.819975317041213
+      ]
+    },
+    {
+      "branch": "probe_2p0nm",
+      "target_height_nm": 2.0,
+      "redistribution_0to1_e_per_nm2": 0.4654321727701051,
+      "redistribution_0to2_e_per_nm2": 1.2425171186179569,
+      "redistribution_0to4_e_per_nm2": 2.933465396468481,
+      "redistribution_0to2_block_sd_e_per_nm2": 0.2368397231019849,
+      "fraction_within_1nm": 0.1586629156527383,
+      "fraction_within_2nm": 0.42356631174643794,
+      "z50_nm": 2.2750000000000004,
+      "z90_nm": 3.575,
+      "water_redistribution_0to2_e_per_nm2": 1.2505994890031278,
+      "ion_redistribution_0to2_e_per_nm2": 0.11032924021950544,
+      "block_0to2_e_per_nm2": [
+        2.3890141993945657,
+        2.774548988964542,
+        2.406897637910851,
+        2.568423392944922,
+        2.934954765491419
+      ]
+    },
+    {
+      "branch": "probe_3p0nm",
+      "target_height_nm": 3.0,
+      "redistribution_0to1_e_per_nm2": 0.3821963516279089,
+      "redistribution_0to2_e_per_nm2": 1.224759380097911,
+      "redistribution_0to4_e_per_nm2": 2.459846151118236,
+      "redistribution_0to2_block_sd_e_per_nm2": 0.24567420995514405,
+      "fraction_within_1nm": 0.15537408770632424,
+      "fraction_within_2nm": 0.4979008055203536,
+      "z50_nm": 2.0250000000000004,
+      "z90_nm": 3.575,
+      "water_redistribution_0to2_e_per_nm2": 1.2159062333167208,
+      "ion_redistribution_0to2_e_per_nm2": 0.11818830938582639,
+      "block_0to2_e_per_nm2": [
+        2.7649695570178583,
+        3.098009081346811,
+        2.8994088739733197,
+        2.802848698069651,
+        3.3588102000477473
+      ]
+    }
+  ]
+}

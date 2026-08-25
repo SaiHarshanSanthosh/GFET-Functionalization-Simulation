@@ -1,0 +1,108 @@
+{
+  "format": "NumPy .npy matrix",
+  "dtype": "float32",
+  "units": {
+    "time": "ps",
+    "coordinates": "nm"
+  },
+  "branch": "probe_1p5nm",
+  "probe_particle_index": 151671,
+  "probe_na_local_index": 55,
+  "target_height_above_graphene_mean_nm": 1.5,
+  "frame_interval_ps": 1.0,
+  "n_frames": 1001,
+  "n_columns": 989,
+  "matrix_shape": [
+    1001,
+    989
+  ],
+  "layout": {
+    "production_elapsed_ps": {
+      "start_column_inclusive": 0,
+      "end_column_exclusive": 1,
+      "shape": [
+        1
+      ]
+    },
+    "context_time_ps": {
+      "start_column_inclusive": 1,
+      "end_column_exclusive": 2,
+      "shape": [
+        1
+      ]
+    },
+    "graphene_z_summary_nm": {
+      "start_column_inclusive": 2,
+      "end_column_exclusive": 5,
+      "shape": [
+        3
+      ]
+    },
+    "ligand_xyz_nm": {
+      "start_column_inclusive": 5,
+      "end_column_exclusive": 215,
+      "shape": [
+        70,
+        3
+      ]
+    },
+    "na_xyz_nm": {
+      "start_column_inclusive": 215,
+      "end_column_exclusive": 548,
+      "shape": [
+        111,
+        3
+      ]
+    },
+    "k_xyz_nm": {
+      "start_column_inclusive": 548,
+      "end_column_exclusive": 557,
+      "shape": [
+        3,
+        3
+      ]
+    },
+    "cl_xyz_nm": {
+      "start_column_inclusive": 557,
+      "end_column_exclusive": 860,
+      "shape": [
+        101,
+        3
+      ]
+    },
+    "h2po4_xyz_nm": {
+      "start_column_inclusive": 860,
+      "end_column_exclusive": 881,
+      "shape": [
+        7,
+        3
+      ]
+    },
+    "hpo4_xyz_nm": {
+      "start_column_inclusive": 881,
+      "end_column_exclusive": 989,
+      "shape": [
+        36,
+        3
+      ]
+    }
+  },
+  "box_vectors_nm": [
+    [
+      6.15,
+      0.0,
+      0.0
+    ],
+    [
+      -3.075,
+      5.326056233274298,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      41.907941
+    ]
+  ],
+  "trajectory_file": "C:\\Users\\SaiHa\\graphene-functionalization-md\\analysis\\ff3_explicit_dpbs_opc_yb_replicaB_na_screening_probe_1p5nm_production_compact_1ps_float32.npy"
+}

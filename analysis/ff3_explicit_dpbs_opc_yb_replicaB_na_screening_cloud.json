@@ -1,0 +1,224 @@
+{
+  "description": "Cumulative mobile/environment charge around restrained Na+ probe.",
+  "probe_charge_e": 1.0,
+  "rmax_nm": 2.5,
+  "dr_nm": 0.02,
+  "summary": [
+    {
+      "branch": "probe_0p5nm",
+      "target_nm": 0.5,
+      "radii_nm": {
+        "0.3": {
+          "mean_environment_charge_e": -2.6022569702970295,
+          "block_sd_e": 0.1512785518875641,
+          "effective_enclosed_charge_e": -1.6022569702970295
+        },
+        "0.5": {
+          "mean_environment_charge_e": -2.6539852475247523,
+          "block_sd_e": 0.34027737513989936,
+          "effective_enclosed_charge_e": -1.6539852475247523
+        },
+        "0.7": {
+          "mean_environment_charge_e": -1.156346277227731,
+          "block_sd_e": 0.5482805296865202,
+          "effective_enclosed_charge_e": -0.1563462772277311
+        },
+        "1.0": {
+          "mean_environment_charge_e": -1.1830306138613955,
+          "block_sd_e": 0.5638786197816721,
+          "effective_enclosed_charge_e": -0.18303061386139552
+        },
+        "1.5": {
+          "mean_environment_charge_e": -1.2564682775124107,
+          "block_sd_e": 1.0902010362644077,
+          "effective_enclosed_charge_e": -0.25646827751241075
+        },
+        "2.0": {
+          "mean_environment_charge_e": -0.7946160727665461,
+          "block_sd_e": 1.8412562492525082,
+          "effective_enclosed_charge_e": 0.2053839272334539
+        }
+      }
+    },
+    {
+      "branch": "probe_1p0nm",
+      "target_nm": 1.0,
+      "radii_nm": {
+        "0.3": {
+          "mean_environment_charge_e": -2.8630177029702977,
+          "block_sd_e": 0.05503243798232025,
+          "effective_enclosed_charge_e": -1.8630177029702977
+        },
+        "0.5": {
+          "mean_environment_charge_e": -2.895685108910892,
+          "block_sd_e": 0.14339853577357142,
+          "effective_enclosed_charge_e": -1.8956851089108921
+        },
+        "0.7": {
+          "mean_environment_charge_e": -1.398258514851499,
+          "block_sd_e": 0.5710178350302886,
+          "effective_enclosed_charge_e": -0.398258514851499
+        },
+        "1.0": {
+          "mean_environment_charge_e": -0.7415665742574654,
+          "block_sd_e": 0.4410039353820586,
+          "effective_enclosed_charge_e": 0.2584334257425346
+        },
+        "1.5": {
+          "mean_environment_charge_e": -1.3628788854842833,
+          "block_sd_e": 1.3260820797467827,
+          "effective_enclosed_charge_e": -0.36287888548428326
+        },
+        "2.0": {
+          "mean_environment_charge_e": -0.3306078393677155,
+          "block_sd_e": 1.2673729347144602,
+          "effective_enclosed_charge_e": 0.6693921606322846
+        }
+      }
+    },
+    {
+      "branch": "probe_1p5nm",
+      "target_nm": 1.5,
+      "radii_nm": {
+        "0.3": {
+          "mean_environment_charge_e": -2.7703614257425726,
+          "block_sd_e": 0.38106219081218146,
+          "effective_enclosed_charge_e": -1.7703614257425726
+        },
+        "0.5": {
+          "mean_environment_charge_e": -2.5019772277227723,
+          "block_sd_e": 0.29957622976825465,
+          "effective_enclosed_charge_e": -1.5019772277227723
+        },
+        "0.7": {
+          "mean_environment_charge_e": -1.663361920792092,
+          "block_sd_e": 0.5509120871767275,
+          "effective_enclosed_charge_e": -0.663361920792092
+        },
+        "1.0": {
+          "mean_environment_charge_e": -0.9133267920792303,
+          "block_sd_e": 0.6204858820632373,
+          "effective_enclosed_charge_e": 0.08667320792076971
+        },
+        "1.5": {
+          "mean_environment_charge_e": -0.555155640758979,
+          "block_sd_e": 0.617808714864544,
+          "effective_enclosed_charge_e": 0.44484435924102095
+        },
+        "2.0": {
+          "mean_environment_charge_e": -1.5762079780521994,
+          "block_sd_e": 0.7278442825154913,
+          "effective_enclosed_charge_e": -0.5762079780521994
+        }
+      }
+    },
+    {
+      "branch": "probe_2p0nm",
+      "target_nm": 2.0,
+      "radii_nm": {
+        "0.3": {
+          "mean_environment_charge_e": -2.911198613861387,
+          "block_sd_e": 0.15472217821561024,
+          "effective_enclosed_charge_e": -1.9111986138613868
+        },
+        "0.5": {
+          "mean_environment_charge_e": -2.9670571881188135,
+          "block_sd_e": 0.4027831681376262,
+          "effective_enclosed_charge_e": -1.9670571881188135
+        },
+        "0.7": {
+          "mean_environment_charge_e": -1.5198766534653565,
+          "block_sd_e": 0.5957655674744193,
+          "effective_enclosed_charge_e": -0.5198766534653565
+        },
+        "1.0": {
+          "mean_environment_charge_e": -0.6238663564356871,
+          "block_sd_e": 1.5162928387886476,
+          "effective_enclosed_charge_e": 0.3761336435643129
+        },
+        "1.5": {
+          "mean_environment_charge_e": -1.2293587524745198,
+          "block_sd_e": 1.804170354507357,
+          "effective_enclosed_charge_e": -0.22935875247451976
+        },
+        "2.0": {
+          "mean_environment_charge_e": -1.4384025855929388,
+          "block_sd_e": 2.3411921962603164,
+          "effective_enclosed_charge_e": -0.43840258559293876
+        }
+      }
+    },
+    {
+      "branch": "probe_3p0nm",
+      "target_nm": 3.0,
+      "radii_nm": {
+        "0.3": {
+          "mean_environment_charge_e": -2.774862277227724,
+          "block_sd_e": 0.19501731826201613,
+          "effective_enclosed_charge_e": -1.774862277227724
+        },
+        "0.5": {
+          "mean_environment_charge_e": -2.6073407524752468,
+          "block_sd_e": 0.25217858047778247,
+          "effective_enclosed_charge_e": -1.6073407524752468
+        },
+        "0.7": {
+          "mean_environment_charge_e": -1.069781465346549,
+          "block_sd_e": 0.18487030838228816,
+          "effective_enclosed_charge_e": -0.06978146534654894
+        },
+        "1.0": {
+          "mean_environment_charge_e": -0.6409704752475548,
+          "block_sd_e": 0.7123372925990613,
+          "effective_enclosed_charge_e": 0.3590295247524452
+        },
+        "1.5": {
+          "mean_environment_charge_e": -1.2367786732661252,
+          "block_sd_e": 1.5954631336861052,
+          "effective_enclosed_charge_e": -0.23677867326612523
+        },
+        "2.0": {
+          "mean_environment_charge_e": -0.39323776238045255,
+          "block_sd_e": 1.2093902897720366,
+          "effective_enclosed_charge_e": 0.6067622376195474
+        }
+      }
+    },
+    {
+      "branch": "bulk_reference",
+      "target_nm": 5.0,
+      "radii_nm": {
+        "0.3": {
+          "mean_environment_charge_e": -2.608981148514852,
+          "block_sd_e": 0.19452506799157832,
+          "effective_enclosed_charge_e": -1.608981148514852
+        },
+        "0.5": {
+          "mean_environment_charge_e": -2.3969842574257414,
+          "block_sd_e": 0.4642375486100014,
+          "effective_enclosed_charge_e": -1.3969842574257414
+        },
+        "0.7": {
+          "mean_environment_charge_e": -1.6186741782178373,
+          "block_sd_e": 0.569093201621981,
+          "effective_enclosed_charge_e": -0.6186741782178373
+        },
+        "1.0": {
+          "mean_environment_charge_e": -0.7998608514851635,
+          "block_sd_e": 0.3348282581561335,
+          "effective_enclosed_charge_e": 0.2001391485148365
+        },
+        "1.5": {
+          "mean_environment_charge_e": -0.5670045148502091,
+          "block_sd_e": 1.374576607620189,
+          "effective_enclosed_charge_e": 0.4329954851497909
+        },
+        "2.0": {
+          "mean_environment_charge_e": -1.0010574653520188,
+          "block_sd_e": 1.4755012111215304,
+          "effective_enclosed_charge_e": -0.0010574653520187827
+        }
+      }
+    }
+  ]
+}
